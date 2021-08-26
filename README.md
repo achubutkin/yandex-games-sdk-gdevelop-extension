@@ -19,7 +19,7 @@ You can find this extension in the GDevelop Extension Library and install from t
 
 If you want to install the extension manually, then follow the instructions below.
 
-* Download the Extension file from this link and save it to any directory on your PC.
+* Download the Extension.json file from this repository and save it to any directory on your PC.
 * Open the GDevelop.
 * Go to Project Manager, then at the bottom click Search for new extensions.
 * In the window that opens, at the bottom, click Import Extension.
