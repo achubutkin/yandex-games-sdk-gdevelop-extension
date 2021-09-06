@@ -4,9 +4,9 @@
   "extensionNamespace": "",
   "fullName": "Yandex.Games SDK",
   "helpPath": "https://github.com/achubutkin/yandex-games-sdk-gdevelop-extension",
-  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMjMsMjhMMjMsMjhjLTEuMSwwLTIuMS0wLjctMi41LTEuOGMwLTAuMSwwLTAuMi0wLjEtMC4yaC04LjljMCwwLjEsMCwwLjItMC4xLDAuMkMxMS4xLDI3LjMsMTAuMSwyOCw5LDI4aDANCgljLTAuNiwwLTEsMC40LTEsMXMwLjQsMSwxLDFoMTRjMC42LDAsMS0wLjQsMS0xUzIzLjYsMjgsMjMsMjh6Ii8+DQo8Zz4NCgk8cGF0aCBkPSJNMTYuOSwxMC45djQuNWMwLjksMC4zLDEuNywwLjYsMi41LDFsMC42LDAuM3YtN2wtMC42LDAuM0MxOC42LDEwLjMsMTcuOCwxMC42LDE2LjksMTAuOXoiLz4NCgk8cGF0aCBkPSJNMjcsM0g1QzMuMywzLDIsNC4zLDIsNnYxNWMwLDEuNywxLjMsMywzLDNoNi45aDguMUgyN2MxLjcsMCwzLTEuMywzLTNWNkMzMCw0LjMsMjguNywzLDI3LDN6IE0yMiwxOC4zDQoJCWMwLDAuMy0wLjIsMC43LTAuNSwwLjljLTAuMiwwLjEtMC4zLDAuMS0wLjUsMC4xYy0wLjIsMC0wLjMsMC0wLjUtMC4xbC0yLTFjLTAuNS0wLjMtMS0wLjUtMS42LTAuN1YyMGMwLDAuNi0wLjQsMS0xLDFoLTIuNQ0KCQljLTAuNCwwLTAuNy0wLjItMC45LTAuNmwtMi4zLTQuNkM5LjUsMTUuMSw5LDE0LjIsOSwxMy4xYzAtMiwxLjYtMy42LDMuNS0zLjZjMi4xLDAsNC4xLTAuNSw2LTEuNGwyLjEtMWMwLjMtMC4yLDAuNy0wLjEsMSwwDQoJCUMyMS44LDcuMywyMiw3LjcsMjIsOFYxOC4zeiIvPg0KPC9nPg0KPC9zdmc+DQo=",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWdhbWVwYWQtdmFyaWFudCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik03LDZIMTdBNiw2IDAgMCwxIDIzLDEyQTYsNiAwIDAsMSAxNywxOEMxNS4yMiwxOCAxMy42MywxNy4yMyAxMi41MywxNkgxMS40N0MxMC4zNywxNy4yMyA4Ljc4LDE4IDcsMThBNiw2IDAgMCwxIDEsMTJBNiw2IDAgMCwxIDcsNk02LDlWMTFINFYxM0g2VjE1SDhWMTNIMTBWMTFIOFY5SDZNMTUuNSwxMkExLjUsMS41IDAgMCwwIDE0LDEzLjVBMS41LDEuNSAwIDAsMCAxNS41LDE1QTEuNSwxLjUgMCAwLDAgMTcsMTMuNUExLjUsMS41IDAgMCwwIDE1LjUsMTJNMTguNSw5QTEuNSwxLjUgMCAwLDAgMTcsMTAuNUExLjUsMS41IDAgMCwwIDE4LjUsMTJBMS41LDEuNSAwIDAsMCAyMCwxMC41QTEuNSwxLjUgMCAwLDAgMTguNSw5WiIgLz48L3N2Zz4=",
   "name": "YandexGamesSDK_pre_1",
-  "previewIconUrl": "https://raw.githubusercontent.com/achubutkin/yandex-games-sdk-gdevelop-extension/main/SEO_advertising_internet_marketing_screen.svg?token=AFHX5ZBORDL6ZKV53OMPGGTBGD3RE",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/gamepad-variant.svg",
   "shortDescription": "An extension for Yandex.Games SDK that lets you easily integrate games created by GDevelop into the Yandex.Games platform.",
   "version": "2.0.0",
   "tags": [
@@ -2540,12 +2540,12 @@
       "objectGroups": []
     },
     {
-      "description": "Load all available purchase succeeded",
-      "fullName": "Load all available purchase succeeded",
+      "description": "Load all available purchase failed",
+      "fullName": "Load all available purchase failed",
       "functionType": "Condition",
       "name": "LoadAllAvailablePurchasesFailed",
       "private": false,
-      "sentence": "Load all available purchase succeeded",
+      "sentence": "Load all available purchase failed",
       "events": [
         {
           "disabled": false,
@@ -2584,48 +2584,6 @@
       "objectGroups": []
     },
     {
-      "description": "Init leaderboards",
-      "fullName": "Init leaderboards",
-      "functionType": "Action",
-      "name": "InitLeaderboards",
-      "private": false,
-      "sentence": "Init leaderboards",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var globalvars = runtimeScene.getGame().getVariables();\r\nvar scenevars = runtimeScene.getVariables();\r\nvar _callbackVariableName = \"YaGamesJsSdk_InitLeaderboardsResult\";\r\n\r\nfunction setCallback(isSuccess) {\r\n    var state = isSuccess ? \"ok\" : \"error\";\r\n    var callbackVariableName = eventsFunctionContext.getArgument(\"CallbackVariableName\");\r\n    if (callbackVariableName) {\r\n        var callbackVariable = globalvars.get(callbackVariableName);\r\n        callbackVariable.setString(state);\r\n        globalvars.add(callbackVariableName, callbackVariable);\r\n    }\r\n}\r\n\r\nsetCallback(false);\r\n\r\ntry {\r\n    yagames_jssdk.getLeaderboards()\r\n        .then(_lb => {\r\n            window[\"yagames_jssdk_lb\"] = _lb;\r\n            setCallback(true);\r\n        })\r\n        .catch(err => {\r\n            console.log(err);\r\n            setCallback(false);\r\n        });\r\n} catch (err) {\r\n    setCallback(false);\r\n    console.error(err);\r\n}\r\n",
-          "parameterObjects": "",
-          "useStrict": true,
-          "eventsSheetExpanded": true
-        }
-      ],
-      "parameters": [],
-      "objectGroups": []
-    },
-    {
-      "description": "Leaderboards initialized",
-      "fullName": "Leaderboards initialized",
-      "functionType": "Condition",
-      "name": "LeaderboardsInitialized",
-      "private": false,
-      "sentence": "Leaderboards initialized",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "if (window[\"yagames_jssdk_lb\"] !== undefined) {\r\n    eventsFunctionContext.returnValue = true;\r\n}\r\n",
-          "parameterObjects": "",
-          "useStrict": true,
-          "eventsSheetExpanded": false
-        }
-      ],
-      "parameters": [],
-      "objectGroups": []
-    },
-    {
       "description": "Load the Leaderboard",
       "fullName": "Load the Leaderboard",
       "functionType": "Action",
@@ -2656,7 +2614,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var globalvars = runtimeScene.getGame().getVariables();\r\nvar scenevars = runtimeScene.getVariables();\r\nvar _callbackVariableName = \"YaGamesJsSdk_LoadLeaderboardResult\";\r\n\r\nfunction setCallback(isSuccess) {\r\n    var state = isSuccess ? \"ok\" : \"error\";\r\n    var callbackVariableName = eventsFunctionContext.getArgument(\"CallbackVariableName\");\r\n    if (callbackVariableName) {\r\n        var callbackVariable = globalvars.get(callbackVariableName);\r\n        callbackVariable.setString(state);\r\n        globalvars.add(callbackVariableName, callbackVariable);\r\n    }\r\n\r\n    // extension variable \r\n    if (_callbackVariableName) {\r\n        var _callbackVariable = globalvars.get(_callbackVariableName);\r\n        _callbackVariable.setString(state);\r\n        globalvars.add(_callbackVariableName, _callbackVariable);\r\n    }\r\n}\r\n\r\nfunction setJsonResult(json) {\r\n    var resultVariableName = eventsFunctionContext.getArgument(\"ResultVariableName\");\r\n    if (resultVariableName) {\r\n        var resultVariable = globalvars.get(resultVariableName);\r\n        gdjs.evtTools.network.jsonToVariableStructure(json, resultVariable);\r\n        globalvars.add(resultVariableName, resultVariable);\r\n    }\r\n}\r\n\r\nvar lbName = eventsFunctionContext.getArgument(\"Name\");\r\n\r\nsetCallback(false);\r\n\r\ntry {\r\n    yagames_jssdk.getLeaderboards()\r\n        .then(lb => {\r\n            return lb.getLeaderboardDescription(lbName);\r\n        })\r\n        .then(res => {\r\n            console.log(res);\r\n            setCallback(true);\r\n        })\r\n        .catch(err => {\r\n            setCallback(false);\r\n            console.log(err);\r\n        });\r\n} catch (err) {\r\n    setCallback(false);\r\n    console.error(err);\r\n}\r\n",
+              "inlineCode": "var boardName = eventsFunctionContext.getArgument(\"Name\");\r\nvar callbackVarName = \"LoadLeaderboardResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r\n        .then(function (lb) {\r\n            return lb.getLeaderboardDescription(boardName);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
@@ -2699,6 +2657,94 @@
       "objectGroups": []
     },
     {
+      "description": "Load leaderboard succeeded",
+      "fullName": "Load leaderboard succeeded",
+      "functionType": "Condition",
+      "name": "LoadLeaderboardSucceeded",
+      "private": false,
+      "sentence": "Load leaderboard succeeded",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "__YandexGamesSDK_LoadLeaderboardResult",
+                "=",
+                "\"ok\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Load leaderboard failed",
+      "fullName": "Load leaderboard failed",
+      "functionType": "Condition",
+      "name": "LoadLeaderboardFailed",
+      "private": false,
+      "sentence": "Load leaderboard failed",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "__YandexGamesSDK_LoadLeaderboardResult",
+                "=",
+                "\"error\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
       "description": "Save the leaderboard score",
       "fullName": "Save the leaderboard score",
       "functionType": "Action",
@@ -2729,7 +2775,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar score = parseInt(eventsFunctionContext.getArgument(\"Score\"));\r\nvar callbackVarName = \"SaveLeaderboardScoreResult\";\r\n\r\ngdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r\n        .then(lb => {\r\n            lb.setLeaderboardScore(lbName, score);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(err => {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n\r\n/*\r\nvar globalvars = runtimeScene.getGame().getVariables();\r\nvar scenevars = runtimeScene.getVariables();\r\nvar _callbackVariableName = \"YaGamesJsSdk_SaveLeaderboardScoreResult\";\r\n\r\nfunction setCallback(isSuccess) {\r\n    var state = isSuccess ? \"ok\" : \"error\";\r\n    var callbackVariableName = eventsFunctionContext.getArgument(\"CallbackVariableName\");\r\n    if (callbackVariableName) {\r\n        var callbackVariable = globalvars.get(callbackVariableName);\r\n        callbackVariable.setString(state);\r\n        globalvars.add(callbackVariableName, callbackVariable);\r\n    }\r\n\r\n    // extension variable \r\n    if (_callbackVariableName) {\r\n        var _callbackVariable = globalvars.get(_callbackVariableName);\r\n        _callbackVariable.setString(state);\r\n        globalvars.add(_callbackVariableName, _callbackVariable);\r\n    }\r\n}\r\n\r\nfunction setJsonResult(json) {\r\n    var resultVariableName = eventsFunctionContext.getArgument(\"ResultVariableName\");\r\n    if (resultVariableName) {\r\n        var resultVariable = globalvars.get(resultVariableName);\r\n        gdjs.evtTools.network.jsonToVariableStructure(json, resultVariable);\r\n        globalvars.add(resultVariableName, resultVariable);\r\n    }\r\n}\r\n\r\nvar lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar score = parseInt(eventsFunctionContext.getArgument(\"Score\"));\r\n\r\nsetCallback(false);\r\n\r\ntry {\r\n    yagames_jssdk.getLeaderboards()\r\n        .then(lb => {\r\n            lb.setLeaderboardScore(lbName, score);\r\n            setCallback(true);\r\n        })\r\n        .catch(err => {\r\n            setCallback(false);\r\n            console.log(err);\r\n        });\r\n} catch (err) {\r\n    setCallback(false);\r\n    console.error(err);\r\n}\r\n*/\r\n",
+              "inlineCode": "var boardName = eventsFunctionContext.getArgument(\"Name\");\r\nvar score = parseInt(eventsFunctionContext.getArgument(\"Score\"));\r\nvar callbackVarName = \"SaveLeaderboardScoreResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r\n        .then(function (lb) {\r\n            lb.setLeaderboardScore(lbName, score);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
@@ -2890,7 +2936,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar callbackVarName = \"LoadPlayerRankingResult\";\r\n\r\ngdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r\n        .then(function (lb) {\r\n            return lb.getLeaderboardPlayerEntry(lbName);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n\r\n            if (err.code === 'LEADERBOARD_PLAYER_NOT_PRESENT') {\r\n                // Triggers if the leaderboard doesn't contain an entry for the player\r\n            }\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n\r\n/*\r\nvar globalvars = runtimeScene.getGame().getVariables();\r\nvar scenevars = runtimeScene.getVariables();\r\nvar _callbackVariableName = \"YaGamesJsSdk_LoadPlayerRankingResult\";\r\n\r\nfunction setCallback(isSuccess) {\r\n    var state = isSuccess ? \"ok\" : \"error\";\r\n    var callbackVariableName = eventsFunctionContext.getArgument(\"CallbackVariableName\");\r\n    if (callbackVariableName) {\r\n        var callbackVariable = globalvars.get(callbackVariableName);\r\n        callbackVariable.setString(state);\r\n        globalvars.add(callbackVariableName, callbackVariable);\r\n    }\r\n\r\n    // extension variable \r\n    if (_callbackVariableName) {\r\n        var _callbackVariable = globalvars.get(_callbackVariableName);\r\n        _callbackVariable.setString(state);\r\n        globalvars.add(_callbackVariableName, _callbackVariable);\r\n    }\r\n}\r\n\r\nfunction setJsonResult(json) {\r\n    var resultVariableName = eventsFunctionContext.getArgument(\"ResultVariableName\");\r\n    if (resultVariableName) {\r\n        var resultVariable = globalvars.get(resultVariableName);\r\n        gdjs.evtTools.network.jsonToVariableStructure(json, resultVariable);\r\n        globalvars.add(resultVariableName, resultVariable);\r\n    }\r\n}\r\n\r\nvar lbName = eventsFunctionContext.getArgument(\"Name\");\r\n\r\nsetCallback(false);\r\n\r\ntry {\r\n    yagames_jssdk.getLeaderboards()\r\n        .then(lb => {\r\n            return lb.getLeaderboardPlayerEntry(lbName);\r\n        })\r\n        .then(res => {\r\n            setJsonResult(JSON.stringify(res));\r\n            setCallback(true);\r\n        })\r\n        .catch(err => {\r\n            setCallback(false);\r\n            console.log(err);\r\n\r\n            if (err.code === 'LEADERBOARD_PLAYER_NOT_PRESENT') {\r\n                // Triggers if the leaderboard doesn't contain an entry for the player\r\n            }\r\n        });\r\n} catch (err) {\r\n    setCallback(false);\r\n    console.error(err);\r\n}\r\n*/",
+              "inlineCode": "var boardName = eventsFunctionContext.getArgument(\"Name\");\r\nvar callbackVarName = \"LoadPlayerRankingResult\";\r\n\r\ngdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r\n        .then(function (lb) {\r\n            return lb.getLeaderboardPlayerEntry(boardName);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n\r\n            if (err.code === 'LEADERBOARD_PLAYER_NOT_PRESENT') {\r\n                // Triggers if the leaderboard doesn't contain an entry for the player\r\n            }\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
@@ -3051,7 +3097,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar quantityTop = parseInt(eventsFunctionContext.getArgument(\"QuantityTop\"));\r\nvar isIncludeUser = !!eventsFunctionContext.getArgument(\"IncludePlayer\");\r\nvar quantityAround = parseInt(eventsFunctionContext.getArgument(\"QuantityAround\"));\r\nvar callbackVarName = \"LoadLeaderboardEntriesResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance()\r\n        .then(function (lb) {\r\n            const options = { includeUser: isIncludeUser };\r\n\r\n            if (quantityTop >= 1) {\r\n                options[\"quantityTop\"] = quantityTop;\r\n            }\r\n            if (quantityAround >= 1) {\r\n                options[\"quantityAround\"] = quantityAround;\r\n            }\r\n\r\n            return lb.getLeaderboardEntries(lbName, options);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n\r\n/*\r\nvar globalvars = runtimeScene.getGame().getVariables();\r\nvar scenevars = runtimeScene.getVariables();\r\nvar _callbackVariableName = \"YaGamesJsSdk_LoadLeaderboardEntriesResult\";\r\n\r\nfunction setCallback(isSuccess) {\r\n    var state = isSuccess ? \"ok\" : \"error\";\r\n    var callbackVariableName = eventsFunctionContext.getArgument(\"CallbackVariableName\");\r\n    if (callbackVariableName) {\r\n        var callbackVariable = globalvars.get(callbackVariableName);\r\n        callbackVariable.setString(state);\r\n        globalvars.add(callbackVariableName, callbackVariable);\r\n    }\r\n\r\n    // extension variable \r\n    if (_callbackVariableName) {\r\n        var _callbackVariable = globalvars.get(_callbackVariableName);\r\n        _callbackVariable.setString(state);\r\n        globalvars.add(_callbackVariableName, _callbackVariable);\r\n    }\r\n}\r\n\r\nfunction setJsonResult(json) {\r\n    var resultVariableName = eventsFunctionContext.getArgument(\"ResultVariableName\");\r\n    if (resultVariableName) {\r\n        var resultVariable = globalvars.get(resultVariableName);\r\n        gdjs.evtTools.network.jsonToVariableStructure(json, resultVariable);\r\n        globalvars.add(resultVariableName, resultVariable);\r\n    }\r\n}\r\n\r\nvar lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar quantityTop = parseInt(eventsFunctionContext.getArgument(\"QuantityTop\"));\r\nvar isIncludeUser = !!eventsFunctionContext.getArgument(\"IncludePlayer\");\r\nvar quantityAround = parseInt(eventsFunctionContext.getArgument(\"QuantityAround\"));\r\n\r\nsetCallback(false);\r\n\r\ntry {\r\n    yagames_jssdk.getLeaderboards()\r\n        .then(lb => {\r\n            const options = { includeUser: isIncludeUser };\r\n\r\n            if (quantityTop >= 1) {\r\n                options[\"quantityTop\"] = quantityTop;\r\n            }\r\n            if (quantityAround >= 1) {\r\n                options[\"quantityAround\"] = quantityAround;\r\n            }\r\n\r\n            return lb.getLeaderboardEntries(lbName, options);\r\n        })\r\n        .then(res => {\r\n            console.log(res);\r\n            setJsonResult(JSON.stringify(res));\r\n            setCallback(true);\r\n        })\r\n        .catch(err => {\r\n            setCallback(false);\r\n            console.log(err);\r\n        });\r\n} catch (err) {\r\n    setCallback(false);\r\n    console.error(err);\r\n}\r\n*/\r\n",
+              "inlineCode": "var boardName = eventsFunctionContext.getArgument(\"Name\");\r\nvar quantityTop = parseInt(eventsFunctionContext.getArgument(\"QuantityTop\"));\r\nvar isIncludeUser = !!eventsFunctionContext.getArgument(\"IncludePlayer\");\r\nvar quantityAround = parseInt(eventsFunctionContext.getArgument(\"QuantityAround\"));\r\nvar callbackVarName = \"LoadLeaderboardEntriesResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance()\r\n        .then(function (lb) {\r\n            const options = { includeUser: isIncludeUser };\r\n\r\n            if (quantityTop >= 1) {\r\n                options[\"quantityTop\"] = quantityTop;\r\n            }\r\n            if (quantityAround >= 1) {\r\n                options[\"quantityAround\"] = quantityAround;\r\n            }\r\n\r\n            return lb.getLeaderboardEntries(boardName, options);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
