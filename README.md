@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://github.com/achubutkin/yandex-games-sdk-gdevelop-extension/cover.png?raw=true" alt="Yandex Games SDK GDevelop Extension Logo"/>
-</p>
+[![GDevelop extension for Yandex.Games SDK](cover.png)](https://github.com/achubutkin/yandex-games-sdk-gdevelop-extension)
 
 # GDevelop extension for Yandex.Games SDK
 An extension for Yandex.Games SDK that lets you easily integrate games created by GDevelop into the Yandex.Games platform. The extension provides the following features:
