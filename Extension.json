@@ -5,7 +5,7 @@
   "fullName": "Yandex.Games SDK",
   "helpPath": "https://github.com/achubutkin/yandex-games-sdk-gdevelop-extension",
   "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWdhbWVwYWQtdmFyaWFudCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik03LDZIMTdBNiw2IDAgMCwxIDIzLDEyQTYsNiAwIDAsMSAxNywxOEMxNS4yMiwxOCAxMy42MywxNy4yMyAxMi41MywxNkgxMS40N0MxMC4zNywxNy4yMyA4Ljc4LDE4IDcsMThBNiw2IDAgMCwxIDEsMTJBNiw2IDAgMCwxIDcsNk02LDlWMTFINFYxM0g2VjE1SDhWMTNIMTBWMTFIOFY5SDZNMTUuNSwxMkExLjUsMS41IDAgMCwwIDE0LDEzLjVBMS41LDEuNSAwIDAsMCAxNS41LDE1QTEuNSwxLjUgMCAwLDAgMTcsMTMuNUExLjUsMS41IDAgMCwwIDE1LjUsMTJNMTguNSw5QTEuNSwxLjUgMCAwLDAgMTcsMTAuNUExLjUsMS41IDAgMCwwIDE4LjUsMTJBMS41LDEuNSAwIDAsMCAyMCwxMC41QTEuNSwxLjUgMCAwLDAgMTguNSw5WiIgLz48L3N2Zz4=",
-  "name": "YandexGamesSDK_pre_1",
+  "name": "YandexGamesSDK",
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/gamepad-variant.svg",
   "shortDescription": "An extension for Yandex.Games SDK that lets you easily integrate games created by GDevelop into the Yandex.Games platform.",
   "version": "2.0.0",
