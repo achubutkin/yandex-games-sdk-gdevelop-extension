@@ -1,7 +1,7 @@
 [![GDevelop extension for Yandex.Games SDK](cover.png)](https://github.com/achubutkin/yandex-games-sdk-gdevelop-extension)
 
 # GDevelop extension for Yandex.Games SDK
-An extension for Yandex.Games SDK that lets you easily integrate games created by GDevelop into the Yandex.Games platform. The extension provides the following features:
+An extension for Yandex.Games SDK that lets you easily integrate games created by GDevelop into the [Yandex.Games](https://yandex.com/games/) platform. The extension provides the following features:
 
 * Set up automatic switching to full screen mode
 * Set up screen orientation during the game and add a rotate device prompt
