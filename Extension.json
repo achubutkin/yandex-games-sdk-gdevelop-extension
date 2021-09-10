@@ -1695,7 +1695,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load all available purchases to the user and their cost. It's generated based on the table in the Purchases tab of the developer dashboard.",
+      "description": "Load all player`s purchases and their cost.",
       "fullName": "Load all player purchases",
       "functionType": "Action",
       "name": "LoadAllPlayerPurchases",
@@ -1725,7 +1725,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "console.log('NOT IMPLEMENTED');\r\n\r\n/*\r\nvar lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar quantityTop = parseInt(eventsFunctionContext.getArgument(\"QuantityTop\"));\r\nvar isIncludeUser = !!eventsFunctionContext.getArgument(\"IncludePlayer\");\r\nvar quantityAround = parseInt(eventsFunctionContext.getArgument(\"QuantityAround\"));\r\nvar callbackVarName = \"LoadLeaderboardEntriesResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance()\r\n        .then(function (lb) {\r\n            const options = { includeUser: isIncludeUser };\r\n\r\n            if (quantityTop >= 1) {\r\n                options[\"quantityTop\"] = quantityTop;\r\n            }\r\n            if (quantityAround >= 1) {\r\n                options[\"quantityAround\"] = quantityAround;\r\n            }\r\n\r\n            return lb.getLeaderboardEntries(lbName, options);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n*/\r\n",
+              "inlineCode": "var callbackVarName = \"LoadAllPlayerPurchasesResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getPaymentsInstance().getPurchases()\r\n        .then(function (purchases) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(purchase), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
@@ -1846,7 +1846,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load a user's purchase by ID.",
+      "description": "Load a user's purchase by ID or process consumable purchases.\n\nThere are two types of purchases: permanent (such as for disabling ads) and consumable (such as in-game currency).\n\nTo process permanent purchases, just use the action.\nTo process consumable purchases, use the action and the Process the consumable purchases option.",
       "fullName": "Load the purchase by ID",
       "functionType": "Action",
       "name": "LoadPlayerPurchaseByID",
@@ -1876,7 +1876,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var purchaseID = eventsFunctionContext.getArgument(\"PurchaseID\");\r\nvar callbackVarName = \"LoadPlayerPurchaseByIDResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance()\r\n        .getPurchases()\r\n        .then(function (purchases) {\r\n            if (purchases.some(function (purchase) { return purchase.productID === purchaseID })) {\r\n                var finded = purchases.filter(function (purchase) {\r\n                    return purchase.productID === eventsFunctionContext.getArgument(\"ID\")\r\n                });\r\n\r\n                gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(finded[0]), eventsFunctionContext);\r\n            }\r\n\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
+              "inlineCode": "var purchaseID = eventsFunctionContext.getArgument(\"PurchaseID\");\r\nvar callbackVarName = \"LoadPlayerPurchaseByIDResult\";\r\nvar processTheConsumablePurchases = !!eventsFunctionContext.getArgument(\"ProcessTheConsumablePurchases\");\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getPaymentsInstance()\r\n        .getPurchases()\r\n        .then(function (purchases) {\r\n            if (purchases.some(function (purchase) { return purchase.productID === purchaseID })) {\r\n                var finded = purchases.filter(function (purchase) {\r\n                    return purchase.productID === eventsFunctionContext.getArgument(\"ID\")\r\n                });\r\n\r\n                if (processTheConsumablePurchases) {\r\n                    gdjs._YandexGamesSDK.getPaymentsInstance()\r\n                        .consumePurchase(purchase.purchaseToken);\r\n                }\r\n\r\n                gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(finded[0]), eventsFunctionContext);\r\n            }\r\n\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
@@ -1904,6 +1904,16 @@
           "optional": false,
           "supplementaryInformation": "",
           "type": "string"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Process the consumable purchases",
+          "longDescription": "There are two types of purchases: permanent (such as for disabling ads) and consumable (such as in-game currency).\n\nTo process permanent purchases, set this option to No.\nTo process consumable purchases, set this option to Yes (Attention! After run this action, the processed purchase is permanently deleted. Therefore, first edit the player data using the Save Player Data or Save Player Stats action and then process the purchase.",
+          "name": "ProcessTheConsumablePurchases",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "yesorno"
         },
         {
           "codeOnly": false,
