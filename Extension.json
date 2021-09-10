@@ -17,8 +17,8 @@
   "dependencies": [],
   "eventsFunctions": [
     {
-      "description": "Initialize the Yandex.Games SDK",
-      "fullName": "Initialize the Yandex.Games SDK",
+      "description": "Initialize the Yandex.Games SDK before getting started. Call this action only once in the game when it starts.\n\nAll other actions and conditions check that this SDK is initialized. You don't have to check it yourself every time.",
+      "fullName": "Initialize Yandex.Games SDK",
       "functionType": "Action",
       "name": "Init",
       "private": false,
@@ -69,12 +69,12 @@
       "objectGroups": []
     },
     {
-      "description": "Yandex Games SDK initialized",
+      "description": "The Yandex Games SDK initialized. All other actions and conditions check that this SDK is initialized. You don't have to check it yourself every time.",
       "fullName": "Yandex Games SDK initialized",
       "functionType": "Condition",
       "name": "Initialized",
       "private": false,
-      "sentence": "Yandex Games SDK initialized",
+      "sentence": "The Yandex Games SDK initialized",
       "events": [
         {
           "disabled": false,
@@ -112,7 +112,7 @@
       "objectGroups": []
     },
     {
-      "description": "Show the interstitial ad",
+      "description": "Interstitial ads are ad blocks that completely cover the app background and show up before a user gets the data requested.",
       "fullName": "Show the interstitial ad",
       "functionType": "Action",
       "name": "ShowInterstitialAd",
@@ -154,7 +154,7 @@
       "objectGroups": []
     },
     {
-      "description": "Interstitial ad opened",
+      "description": "Checking for the successful opening of the ad.",
       "fullName": "Interstitial ad opened",
       "functionType": "Condition",
       "name": "InterstitialAdOpened",
@@ -198,7 +198,7 @@
       "objectGroups": []
     },
     {
-      "description": "Interstitial ad was shown",
+      "description": "Checking for the successful opening and showing of the ad.",
       "fullName": "Interstitial ad was shown",
       "functionType": "Condition",
       "name": "InterstitialAdWasShown",
@@ -242,7 +242,7 @@
       "objectGroups": []
     },
     {
-      "description": "Interstitial ad closed",
+      "description": "Checking for the closed of the ad.",
       "fullName": "Interstitial ad closed",
       "functionType": "Condition",
       "name": "InterstitialAdClosed",
@@ -377,7 +377,7 @@
       "objectGroups": []
     },
     {
-      "description": "Interstitial ad failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Interstitial ad failed",
       "functionType": "Condition",
       "name": "InterstitialAdFailed",
@@ -421,7 +421,7 @@
       "objectGroups": []
     },
     {
-      "description": "Show the rewarded video",
+      "description": "Rewarded videos are video ad blocks used to monetize games and earn a reward or in-game currency.",
       "fullName": "Show the rewarded video",
       "functionType": "Action",
       "name": "ShowRewardedVideo",
@@ -463,7 +463,7 @@
       "objectGroups": []
     },
     {
-      "description": "Rewarded video opened",
+      "description": "Checking for the successful opening of the ad.",
       "fullName": "Rewarded video opened",
       "functionType": "Condition",
       "name": "RewardedVideoOpened",
@@ -507,7 +507,7 @@
       "objectGroups": []
     },
     {
-      "description": "Rewarded video rewarded",
+      "description": "Checking for a successful reward.",
       "fullName": "Rewarded video rewarded",
       "functionType": "Condition",
       "name": "RewardedVideoRewarded",
@@ -551,7 +551,7 @@
       "objectGroups": []
     },
     {
-      "description": "Rewarded video closed",
+      "description": "Checking for the closed of the ad.",
       "fullName": "Rewarded video closed",
       "functionType": "Condition",
       "name": "RewardedVideoClosed",
@@ -595,7 +595,7 @@
       "objectGroups": []
     },
     {
-      "description": "Rewarded video failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Rewarded video failed",
       "functionType": "Condition",
       "name": "RewardedVideoFailed",
@@ -639,7 +639,7 @@
       "objectGroups": []
     },
     {
-      "description": "Init player",
+      "description": "To work with the user's in-game data, use the action. \n\nWhen the Player object is initialized, the player sees a dialog window requesting access to their personal data. Access is requested for the avatar and username, the user ID is always passed automatically.\n\nIf you only need the ID and not the username or avatar, use the optional scopes: false parameter. In this case, the dialog window isn't shown.",
       "fullName": "Init player",
       "functionType": "Action",
       "name": "InitPlayer",
@@ -722,7 +722,7 @@
       "objectGroups": []
     },
     {
-      "description": "Player initialized",
+      "description": "The player is initialized. All other actions and conditions check that the player is initialized. You don't have to check it yourself every time.",
       "fullName": "Player initialized",
       "functionType": "Condition",
       "name": "PlayerInitialized",
@@ -764,7 +764,49 @@
       "objectGroups": []
     },
     {
-      "description": "Load the player data",
+      "description": "Checking for an error occurrs.",
+      "fullName": "Init player failed",
+      "functionType": "Action",
+      "name": "InitPlayerFailed",
+      "private": false,
+      "sentence": "Checking for an error occurrs.",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "YandexGamesSDK_pre_1::Initialized"
+              },
+              "parameters": [
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "console.log('NOT IMPLEMENTED!');",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Load the in-game user data stored in the Yandex database.",
       "fullName": "Load the player data",
       "functionType": "Action",
       "name": "LoadPlayerData",
@@ -837,7 +879,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the player data succeeded",
+      "description": "Checking for the successful loading of the player data.",
       "fullName": "Load the player data succeeded",
       "functionType": "Condition",
       "name": "LoadPlayerDataSucceeded",
@@ -881,7 +923,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the player data failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load the player data failed",
       "functionType": "Condition",
       "name": "LoadPlayerDataFailed",
@@ -925,7 +967,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save the player data",
+      "description": "Save the in-game user data stored in the Yandex database.",
       "fullName": "Save the player data",
       "functionType": "Action",
       "name": "SavePlayerData",
@@ -998,7 +1040,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save the player data succeeded",
+      "description": "Checking for the successful saving of the player data.",
       "fullName": "Save the player data succeeded",
       "functionType": "Condition",
       "name": "SavePlayerDataSucceeded",
@@ -1042,7 +1084,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save the player data failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Save the player data failed",
       "functionType": "Condition",
       "name": "SavePlayerDataFailed",
@@ -1086,7 +1128,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the player stats",
+      "description": "Load the in-game player numeric data stored in the Yandex database.",
       "fullName": "Load the player stats",
       "functionType": "Action",
       "name": "LoadPlayerStats",
@@ -1138,7 +1180,7 @@
         {
           "codeOnly": false,
           "defaultValue": "",
-          "description": "Global number variable where to store loaded stats",
+          "description": "Global number variable where to store loaded stats where each value is a number",
           "longDescription": "",
           "name": "ResultVariableName",
           "optional": false,
@@ -1159,7 +1201,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the player stats succeeded",
+      "description": "Checking for the successful loading of the player data.",
       "fullName": "Load the player stats succeeded",
       "functionType": "Condition",
       "name": "LoadPlayerStatsSucceeded",
@@ -1203,7 +1245,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the player stats failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load the player stats failed",
       "functionType": "Condition",
       "name": "LoadPlayerStatsFailed",
@@ -1247,7 +1289,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save the player stats",
+      "description": "Save the in-game player numeric data stored in the Yandex database.",
       "fullName": "Save the player stats",
       "functionType": "Action",
       "name": "SavePlayerStats",
@@ -1299,7 +1341,7 @@
         {
           "codeOnly": false,
           "defaultValue": "",
-          "description": "Scene structure variable with the content to save",
+          "description": "Scene structure variable with the content to save where each value is a number",
           "longDescription": "",
           "name": "ContentVariableName",
           "optional": false,
@@ -1320,7 +1362,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save the player stats succeeded",
+      "description": "Checking for the successful saving of the player data.",
       "fullName": "Save the player stats succeeded",
       "functionType": "Condition",
       "name": "SavePlayerStatsSucceeded",
@@ -1364,7 +1406,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save the player stats failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Save the player stats failed",
       "functionType": "Condition",
       "name": "SavePlayerStatsFailed",
@@ -1408,7 +1450,7 @@
       "objectGroups": []
     },
     {
-      "description": "Increment the player stats",
+      "description": "Changes in-game numeric user data. For numeric values that change frequently.",
       "fullName": "Increment the player stats",
       "functionType": "Action",
       "name": "IncrementPlayerStats",
@@ -1460,7 +1502,7 @@
         {
           "codeOnly": false,
           "defaultValue": "",
-          "description": "Scene structure variable with the content to save",
+          "description": "Scene structure variable with the content to save where each value is a number",
           "longDescription": "",
           "name": "ContentVariableName",
           "optional": false,
@@ -1481,7 +1523,7 @@
       "objectGroups": []
     },
     {
-      "description": "Increment the player stats succeeded",
+      "description": "Checking for the successful saving of the player data.",
       "fullName": "Increment the player stats succeeded",
       "functionType": "Condition",
       "name": "IncrementPlayerStatsSucceeded",
@@ -1525,7 +1567,7 @@
       "objectGroups": []
     },
     {
-      "description": "Increment the player stats failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Increment the player stats failed",
       "functionType": "Condition",
       "name": "IncrementPlayerStatsFailed",
@@ -1569,153 +1611,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the data from the safe storage (to avoid progress loss on iOS)",
-      "fullName": "Load the data from the safe storage (to avoid progress loss on iOS)",
-      "functionType": "Action",
-      "name": "LoadDataFromSafeStorage",
-      "private": false,
-      "sentence": "Load the data from the safe storage _PARAM1_ from variable  _PARAM2_",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
-              },
-              "parameters": [
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var callbackVarName = \"LoadDataToSafeStorageResult\";\r\nvar keyVarName = eventsFunctionContext.getArgument(\"KeyVariableName\");\r\nvar keyVar = gdjs._YandexGamesSDK.getGlobalVariable(keyVarName).getAsString();\r\n\r\ngdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance()\r\n        .getStorage()\r\n        .then(function (safeStorage) {\r\n            var data = safeStorage.getItem(keyVar);\r\n\r\n            if (data !== undefined && data !== null) {\r\n                gdjs._YandexGamesSDK.setFunctionContextJsonCallback(data, _eventsFunctionContext)\r\n            }\r\n            \r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (error) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
-              "parameterObjects": "",
-              "useStrict": true,
-              "eventsSheetExpanded": true
-            }
-          ]
-        }
-      ],
-      "parameters": [
-        {
-          "codeOnly": false,
-          "defaultValue": "",
-          "description": "Data key name (e.g. \"Lives\")",
-          "longDescription": "",
-          "name": "KeyVariableName",
-          "optional": false,
-          "supplementaryInformation": "",
-          "type": "string"
-        },
-        {
-          "codeOnly": false,
-          "defaultValue": "",
-          "description": "Global number, string or structure variable where to store loaded data",
-          "longDescription": "",
-          "name": "ResultVariableName",
-          "optional": false,
-          "supplementaryInformation": "",
-          "type": "string"
-        },
-        {
-          "codeOnly": false,
-          "defaultValue": "",
-          "description": "Global variable where to store the variable with state (ok or error)",
-          "longDescription": "",
-          "name": "CallbackVariableName",
-          "optional": false,
-          "supplementaryInformation": "",
-          "type": "string"
-        }
-      ],
-      "objectGroups": []
-    },
-    {
-      "description": "Save the data to the safe storage (to avoid progress loss on iOS)",
-      "fullName": "Save the data to the safe storage (to avoid progress loss on iOS)",
-      "functionType": "Action",
-      "name": "SaveDataToSafeStorage",
-      "private": false,
-      "sentence": "Save the data to the safe storage _PARAM1_ from variable  _PARAM2_",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
-              },
-              "parameters": [
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var globalvars = runtimeScene.getGame().getVariables();\r\nvar scenevars = runtimeScene.getVariables();\r\nvar _callbackVariableName = \"YaGamesJsSdk_SaveDataToSafeStorageResult\";\r\n\r\nfunction setCallback(isSuccess) {\r\n    var state = isSuccess ? \"ok\" : \"error\";\r\n    var callbackVariableName = eventsFunctionContext.getArgument(\"CallbackVariableName\");\r\n    if (callbackVariableName) {\r\n        var callbackVariable = globalvars.get(callbackVariableName);\r\n        callbackVariable.setString(state);\r\n        globalvars.add(callbackVariableName, callbackVariable);\r\n    }\r\n\r\n    // extension variable \r\n    if (_callbackVariableName) {\r\n        var _callbackVariable = globalvars.get(_callbackVariableName);\r\n        _callbackVariable.setString(state);\r\n        globalvars.add(_callbackVariableName, _callbackVariable);\r\n    }\r\n}\r\n\r\nvar variableName = eventsFunctionContext.getArgument(\"KeyVariableName\");\r\nvar variable = globalvars.get(variableName).getAsString();\r\nvar contentVariableName = eventsFunctionContext.getArgument(\"ContentVariableName\");\r\nvar contentVariable = scenevars.get(contentVariableName);\r\n\r\nif (contentVariable && contentVariable.isStructure()) {\r\n    try {\r\n        yagames_jssdk.getStorage()\r\n            .then(safeStorage => {\r\n                if (contentVariable.isPrimitive()) {\r\n                    safeStorage.setItem(variable, contentVariable.getAsString());\r\n                    console.log(safeStorage.getItem(variable))\r\n                } else if (contentVariable.isStructure()) {\r\n                    var data = gdjs.evtTools.network.variableStructureToJSON(contentVariable);\r\n                    safeStorage.setItem(variable, JSON.stringify(data));\r\n                    console.log(safeStorage.getItem(variable))\r\n                }\r\n            })\r\n            .catch(error => {\r\n                setCallback(false);\r\n                console.error(err);\r\n            });\r\n    } catch (err) {\r\n        setCallback(false);\r\n        console.error(err);\r\n    }\r\n}\r\n",
-              "parameterObjects": "",
-              "useStrict": true,
-              "eventsSheetExpanded": true
-            }
-          ]
-        }
-      ],
-      "parameters": [
-        {
-          "codeOnly": false,
-          "defaultValue": "",
-          "description": "Data key name (e.g. \"Lives\")",
-          "longDescription": "",
-          "name": "KeyVariableName",
-          "optional": false,
-          "supplementaryInformation": "",
-          "type": "string"
-        },
-        {
-          "codeOnly": false,
-          "defaultValue": "",
-          "description": "Scene number, string or structure variable with the content to save",
-          "longDescription": "",
-          "name": "ContentVariableName",
-          "optional": false,
-          "supplementaryInformation": "",
-          "type": "string"
-        },
-        {
-          "codeOnly": false,
-          "defaultValue": "",
-          "description": "Global variable where to store the variable with state (ok or error)",
-          "longDescription": "",
-          "name": "CallbackVariableName",
-          "optional": false,
-          "supplementaryInformation": "",
-          "type": "string"
-        }
-      ],
-      "objectGroups": []
-    },
-    {
-      "description": "Init payments",
+      "description": "To allow users to make in-game purchases. Only users logged in to Yandex can make in-game purchases, otherwise the purchase data isn't saved.\n\nUser must be initialized before calling this action with action InitPlayer.",
       "fullName": "Init payments",
       "functionType": "Action",
       "name": "InitPayments",
@@ -1757,7 +1653,7 @@
       "objectGroups": []
     },
     {
-      "description": "Payments initialized",
+      "description": "Payments have been initialized. All other actions and conditions check that payments have been initialized. You don't have to check it yourself every time.",
       "fullName": "Payments initialized",
       "functionType": "Condition",
       "name": "PaymentsInitialized",
@@ -1778,7 +1674,28 @@
       "objectGroups": []
     },
     {
-      "description": "Load all player purchases",
+      "description": "Init payments failed",
+      "fullName": "Init payments failed",
+      "functionType": "Condition",
+      "name": "InitPaymentsFailed",
+      "private": false,
+      "sentence": "Init payments failed",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "console.log('NOT IMPLEMENTED!');\r\n",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Load all available purchases to the user and their cost. It's generated based on the table in the Purchases tab of the developer dashboard.",
       "fullName": "Load all player purchases",
       "functionType": "Action",
       "name": "LoadAllPlayerPurchases",
@@ -1808,7 +1725,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar quantityTop = parseInt(eventsFunctionContext.getArgument(\"QuantityTop\"));\r\nvar isIncludeUser = !!eventsFunctionContext.getArgument(\"IncludePlayer\");\r\nvar quantityAround = parseInt(eventsFunctionContext.getArgument(\"QuantityAround\"));\r\nvar callbackVarName = \"LoadLeaderboardEntriesResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance()\r\n        .then(function (lb) {\r\n            const options = { includeUser: isIncludeUser };\r\n\r\n            if (quantityTop >= 1) {\r\n                options[\"quantityTop\"] = quantityTop;\r\n            }\r\n            if (quantityAround >= 1) {\r\n                options[\"quantityAround\"] = quantityAround;\r\n            }\r\n\r\n            return lb.getLeaderboardEntries(lbName, options);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
+              "inlineCode": "console.log('NOT IMPLEMENTED');\r\n\r\n/*\r\nvar lbName = eventsFunctionContext.getArgument(\"Name\");\r\nvar quantityTop = parseInt(eventsFunctionContext.getArgument(\"QuantityTop\"));\r\nvar isIncludeUser = !!eventsFunctionContext.getArgument(\"IncludePlayer\");\r\nvar quantityAround = parseInt(eventsFunctionContext.getArgument(\"QuantityAround\"));\r\nvar callbackVarName = \"LoadLeaderboardEntriesResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance()\r\n        .then(function (lb) {\r\n            const options = { includeUser: isIncludeUser };\r\n\r\n            if (quantityTop >= 1) {\r\n                options[\"quantityTop\"] = quantityTop;\r\n            }\r\n            if (quantityAround >= 1) {\r\n                options[\"quantityAround\"] = quantityAround;\r\n            }\r\n\r\n            return lb.getLeaderboardEntries(lbName, options);\r\n        })\r\n        .then(function (res) {\r\n            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n*/\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
@@ -1841,7 +1758,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load all player`s purchases succeeded",
+      "description": "Checking for the successful loaded all player`s purchases.",
       "fullName": "Load all player`s purchases succeeded",
       "functionType": "Condition",
       "name": "LoadAllPlayerPurchasesSucceeded",
@@ -1885,7 +1802,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load all player`s purchases failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load all player`s purchases failed",
       "functionType": "Condition",
       "name": "LoadAllPlayerPurchasesFailed",
@@ -1929,7 +1846,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the purchase by ID",
+      "description": "Load a user's purchase by ID.",
       "fullName": "Load the purchase by ID",
       "functionType": "Action",
       "name": "LoadPlayerPurchaseByID",
@@ -2002,7 +1919,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load player`s purchase by ID succeeded",
+      "description": "Checking for the successful loaded player`s purchase by ID.",
       "fullName": "Load player`s purchase by ID succeeded",
       "functionType": "Condition",
       "name": "LoadPlayerPurchaseByIDSucceeded",
@@ -2046,7 +1963,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load player`s purchase by ID failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load player`s purchase by ID failed",
       "functionType": "Condition",
       "name": "LoadPlayerPurchaseByIDFailed",
@@ -2090,7 +2007,7 @@
       "objectGroups": []
     },
     {
-      "description": "Purchase",
+      "description": "Activate an in-game purchase. The action opens a frame with a payment gateway.\n\nAfter the player successfully makes a purchase, check it with the PurchaseSucceeded condition. If the player didn't make a purchase and closed the window, check it with the PurchaseFailed condition.",
       "fullName": "Purchase",
       "functionType": "Action",
       "name": "Purchase",
@@ -2163,7 +2080,7 @@
       "objectGroups": []
     },
     {
-      "description": "Purchase succeeded",
+      "description": "Checking for the player successfully makes a purchase.",
       "fullName": "Purchase succeeded",
       "functionType": "Condition",
       "name": "PurchaseSucceeded",
@@ -2298,7 +2215,7 @@
       "objectGroups": []
     },
     {
-      "description": "Purchase failed",
+      "description": "Checking for an error occurrs.\n\nAn unstable internet connection may cause a situation where the player makes a purchase, but it's not registered in the game. To avoid this, process purchases using the ConsumePurchase action.",
       "fullName": "Purchase failed",
       "functionType": "Condition",
       "name": "PurchaseFailed",
@@ -2433,7 +2350,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load all available purchases and their cost",
+      "description": "Load all available purchases to the user and their cost. It's generated based on the table in the Purchases tab of the developer dashboard.",
       "fullName": "Load all available purchases and their cost",
       "functionType": "Action",
       "name": "LoadAllAvailablePurchases",
@@ -2496,7 +2413,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load all available purchase succeeded",
+      "description": "Checking for the successful loaded all purchases.",
       "fullName": "Load all available purchase succeeded",
       "functionType": "Condition",
       "name": "LoadAllAvailablePurchasesSucceeded",
@@ -2540,7 +2457,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load all available purchase failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load all available purchase failed",
       "functionType": "Condition",
       "name": "LoadAllAvailablePurchasesFailed",
@@ -2584,7 +2501,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the Leaderboard",
+      "description": "Load a personalized competition tables (leaderboards) by name.",
       "fullName": "Load the Leaderboard",
       "functionType": "Action",
       "name": "LoadLeaderboard",
@@ -2657,7 +2574,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load leaderboard succeeded",
+      "description": "Checking for the successfull loaded a personalized competition tables (leaderboards) by name.",
       "fullName": "Load leaderboard succeeded",
       "functionType": "Condition",
       "name": "LoadLeaderboardSucceeded",
@@ -2701,7 +2618,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load leaderboard failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load leaderboard failed",
       "functionType": "Condition",
       "name": "LoadLeaderboardFailed",
@@ -2745,7 +2662,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save the leaderboard score",
+      "description": "Save a new score for a player.",
       "fullName": "Save the leaderboard score",
       "functionType": "Action",
       "name": "SaveLeaderboardScore",
@@ -2818,7 +2735,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save leaderboard succeeded",
+      "description": "Checking for the successfull save a new score for a player.",
       "fullName": "Save leaderboard succeeded",
       "functionType": "Condition",
       "name": "SaveLeaderboardSucceeded",
@@ -2862,7 +2779,7 @@
       "objectGroups": []
     },
     {
-      "description": "Save leaderboard failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Save leaderboard failed",
       "functionType": "Condition",
       "name": "SaveLeaderboardFailed",
@@ -2906,7 +2823,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the Player ranking",
+      "description": "Load a user's ranking.",
       "fullName": "Load the Player ranking",
       "functionType": "Action",
       "name": "LoadPlayerRanking",
@@ -2979,7 +2896,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the Player ranking succeeded",
+      "description": "Checking for the successfull load a user's ranking.",
       "fullName": "Load the Player ranking succeeded",
       "functionType": "Condition",
       "name": "LoadPlayerRankingSucceeded",
@@ -3023,7 +2940,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the Player ranking failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load the Player ranking failed",
       "functionType": "Condition",
       "name": "LoadPlayerRankingFailed",
@@ -3067,7 +2984,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load the Leaderboard entries",
+      "description": "Load user rankings.",
       "fullName": "Load the Leaderboard entries",
       "functionType": "Action",
       "name": "LoadLeaderboardEntries",
@@ -3170,7 +3087,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load leaderboards entries succeeded",
+      "description": "Checking for the successfull load user rankings.",
       "fullName": "Load leaderboards entries succeeded",
       "functionType": "Condition",
       "name": "LoadLeaderboardsEntriesSucceeded",
@@ -3214,7 +3131,7 @@
       "objectGroups": []
     },
     {
-      "description": "Load leaderboards entries failed",
+      "description": "Checking for an error occurrs.",
       "fullName": "Load leaderboards entries failed",
       "functionType": "Condition",
       "name": "LoadLeaderboardsEntriesFailed",
@@ -3258,7 +3175,7 @@
       "objectGroups": []
     },
     {
-      "description": "Request the Game review",
+      "description": "Ask users to rate your game and write comments in a pop-up window (it appears when you ask for a rating, covering the app background). The pop-up window isn't shown if the user isn't logged in or already rated the game.",
       "fullName": "Request the Game review",
       "functionType": "Action",
       "name": "RequestGameReview",
@@ -3269,7 +3186,7 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "gdjs._YandexGamesSDK.getInstance().feedback.canReview()\r\n    .then(function (res) {\r\n        if (res.value) {\r\n            gdjs._YandexGamesSDK.getInstance().feedback.requestReview()\r\n                .then(function (res) {\r\n                    console.log(res.feedbackSent);\r\n                });\r\n        } else {\r\n            console.log(res.reason);\r\n        }\r\n    });",
+          "inlineCode": "gdjs._YandexGamesSDK.getInstance().feedback.canReview()\r\n    .then(function (res) {\r\n        if (res.value) {\r\n            gdjs._YandexGamesSDK.getInstance().feedback.requestReview()\r\n                .then(function (res) {\r\n                    console.log(res.feedbackSent);\r\n                });\r\n        } else {\r\n            console.log(res.reason);\r\n        }\r\n    });\r\n    ",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": true
@@ -3279,14 +3196,5 @@
       "objectGroups": []
     }
   ],
-  "eventsBasedBehaviors": [
-    {
-      "description": "",
-      "fullName": "",
-      "name": "MyBehavior",
-      "objectType": "",
-      "eventsFunctions": [],
-      "propertyDescriptors": []
-    }
-  ]
+  "eventsBasedBehaviors": []
 }
