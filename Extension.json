@@ -127,7 +127,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::Initialized"
+                "value": "YandexGamesSDK::Initialized"
               },
               "parameters": [
                 "",
@@ -436,7 +436,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::Initialized"
+                "value": "YandexGamesSDK::Initialized"
               },
               "parameters": [
                 "",
@@ -654,7 +654,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::Initialized"
+                "value": "YandexGamesSDK::Initialized"
               },
               "parameters": [
                 "",
@@ -737,7 +737,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::Initialized"
+                "value": "YandexGamesSDK::Initialized"
               },
               "parameters": [
                 "",
@@ -779,7 +779,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::Initialized"
+                "value": "YandexGamesSDK::Initialized"
               },
               "parameters": [
                 "",
@@ -821,7 +821,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -982,7 +982,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -1143,7 +1143,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -1304,7 +1304,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -1465,7 +1465,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -1626,7 +1626,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -1710,7 +1710,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PaymentsInitialized"
+                "value": "YandexGamesSDK::PaymentsInitialized"
               },
               "parameters": [
                 "",
@@ -1861,7 +1861,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PaymentsInitialized"
+                "value": "YandexGamesSDK::PaymentsInitialized"
               },
               "parameters": [
                 "",
@@ -2032,7 +2032,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PaymentsInitialized"
+                "value": "YandexGamesSDK::PaymentsInitialized"
               },
               "parameters": [
                 "",
@@ -2105,7 +2105,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PaymentsInitialized"
+                "value": "YandexGamesSDK::PaymentsInitialized"
               },
               "parameters": [
                 "",
@@ -2240,7 +2240,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PaymentsInitialized"
+                "value": "YandexGamesSDK::PaymentsInitialized"
               },
               "parameters": [
                 "",
@@ -2375,7 +2375,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PaymentsInitialized"
+                "value": "YandexGamesSDK::PaymentsInitialized"
               },
               "parameters": [
                 "",
@@ -2526,7 +2526,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -2687,7 +2687,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -2702,7 +2702,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var boardName = eventsFunctionContext.getArgument(\"Name\");\r\nvar score = parseInt(eventsFunctionContext.getArgument(\"Score\"));\r\nvar callbackVarName = \"SaveLeaderboardScoreResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r\n        .then(function (lb) {\r\n            lb.setLeaderboardScore(lbName, score);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
+              "inlineCode": "var boardName = eventsFunctionContext.getArgument(\"Name\");\r\nvar score = parseInt(eventsFunctionContext.getArgument(\"Score\"));\r\nvar callbackVarName = \"SaveLeaderboardScoreResult\";\r\n\r\ntry {\r\n    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r\n        .then(function (lb) {\r\n            lb.setLeaderboardScore(boardName, score);\r\n            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r\n        })\r\n        .catch(function (err) {\r\n            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n            console.warn(err);\r\n        });\r\n} catch (err) {\r\n    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r\n    console.warn(err);\r\n}\r\n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": true
@@ -2848,7 +2848,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
@@ -3009,7 +3009,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "YandexGamesSDK_pre_1::PlayerInitialized"
+                "value": "YandexGamesSDK::PlayerInitialized"
               },
               "parameters": [
                 "",
