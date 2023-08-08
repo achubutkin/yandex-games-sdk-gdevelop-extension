@@ -991,6 +991,50 @@
       "objectGroups": []
     },
     {
+      "description": "You can get information about the game's environment.",
+      "fullName": "Get environment variables",
+      "functionType": "Action",
+      "name": "GetEnvironmentVariables",
+      "sentence": "Get environment variables to _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::Initialized"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "var data = gdjs._YandexGamesSDK.getInstance().environment;\r",
+                "gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(data), eventsFunctionContext);"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Global variable where to store environment variables",
+          "name": "ResultVariableName",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
       "description": "Checking for the successful loading of the player data.",
       "fullName": "Load the player data succeeded",
       "functionType": "Condition",
