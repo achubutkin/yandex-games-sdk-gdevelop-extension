@@ -1,0 +1,4260 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "portrait",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "261745b6-5a13-4409-bd92-015d10850cea",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Adhesive Flowers",
+    "description": "",
+    "author": "",
+    "windowWidth": 720,
+    "windowHeight": 1280,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "marvin_round-19bc84dad1.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "marvin_round-19bc84dad1.ttf",
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.405751890594383,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlayerInitState",
+          "persistentUuid": "3cf18eb1-6539-40c8-8561-5e7f284609b2",
+          "width": 0,
+          "x": 248,
+          "y": 96,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlayerID",
+          "persistentUuid": "cd5bd42a-2115-45e3-9baa-f90373078c09",
+          "width": 0,
+          "x": 224,
+          "y": 143,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlayerScore",
+          "persistentUuid": "08c4c016-99d6-42ee-a254-2b8a6930cebc",
+          "width": 0,
+          "x": 320,
+          "y": 302,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "IncreaseScoreButton",
+          "persistentUuid": "64d87e1d-767b-4862-bf1a-f1002b5cc090",
+          "width": 0,
+          "x": 480,
+          "y": 304,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DecreaseScoreButton",
+          "persistentUuid": "7ed960bc-db2f-4968-97a9-74eb50326715",
+          "width": 0,
+          "x": 176,
+          "y": 304,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlayerScoreState",
+          "persistentUuid": "e2091f56-d5d9-4204-9890-12f74ede10b7",
+          "width": 0,
+          "x": 242,
+          "y": 272,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SignInWithoutAuthDialogButton",
+          "persistentUuid": "9fae8102-cd25-4c5e-ae65-8a59f7cedf6f",
+          "width": 0,
+          "x": 90,
+          "y": 554,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SignInWithinAuthDialogButton",
+          "persistentUuid": "2e410e6f-c0cd-45e4-bb34-58b48e465848",
+          "width": 0,
+          "x": 96,
+          "y": 672,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlayerInitState",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Player isn't initialized",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlayerID",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Player's ID (player isn't initialized)",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "PlayerScore",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 96,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "IncreaseScoreButton",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 96,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "DecreaseScoreButton",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 96,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SignInWithoutAuthDialogButton",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sign In without Auth dialog",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 36,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SignInWithinAuthDialogButton",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sign In within Auth dialog",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 36,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlayerScoreState",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Loading Player's score loading/saving state",
+          "font": "marvin_round-19bc84dad1.ttf",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PlayerScore",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "YandexGamesSDK::Initialized"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::Init"
+              },
+              "parameters": [
+                "",
+                "",
+                "\"portrait\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::PlayerInitialized"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerID",
+                "=",
+                "GlobalVariableString(__YandexGamesSDK_Player[\"id\"])"
+              ]
+            },
+            {
+              "type": {
+                "value": "YandexGamesSDK::LoadPlayerData"
+              },
+              "parameters": [
+                "",
+                "\"Score\"",
+                "\"PlayerData\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::PlayerInitialized"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableChildExists"
+              },
+              "parameters": [
+                "__YandexGamesSDK_Player",
+                "\"name\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerInitState",
+                "=",
+                "\"Player initialized as \" + GlobalVariableString(__YandexGamesSDK_Player[\"name\"])"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::PlayerInitialized"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "GlobalVariableChildExists"
+              },
+              "parameters": [
+                "__YandexGamesSDK_Player",
+                "\"name\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerInitState",
+                "=",
+                "\"Player initialized (only ID provided)\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::LoadPlayerDataSucceeded"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PlayerScore",
+                "=",
+                "GlobalVariable(PlayerData[\"Score\"])"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerScoreState",
+                "=",
+                "\"Loading Player's score succeeded\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::LoadPlayerDataFailed"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerScoreState",
+                "=",
+                "\"Loading Player's score failed\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::SavePlayerDataSucceeded"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerScoreState",
+                "=",
+                "\"Save Player's score succeeded\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::SavePlayerDataFailed"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerScoreState",
+                "=",
+                "\"Save Player's score failed\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "IncreaseScoreButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PlayerScore",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "YandexGamesSDK::SavePlayerData"
+              },
+              "parameters": [
+                "",
+                "\"Score\"",
+                "\"PlayerScore\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DecreaseScoreButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "PlayerScore",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PlayerScore",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "YandexGamesSDK::SavePlayerData"
+              },
+              "parameters": [
+                "",
+                "\"Score\"",
+                "\"PlayerScore\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sign in buttons"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SignInWithoutAuthDialogButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::InitPlayer"
+              },
+              "parameters": [
+                "",
+                "True",
+                "False",
+                "False",
+                "\"medium\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SignInWithinAuthDialogButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "YandexGamesSDK::InitPlayer"
+              },
+              "parameters": [
+                "",
+                "True",
+                "False",
+                "True",
+                "\"medium\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerScore",
+                "=",
+                "ToString(Variable(PlayerScore))"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PlayerInitState",
+                "=",
+                "SceneWindowWidth() / 2 - PlayerInitState.Width() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PlayerID",
+                "=",
+                "SceneWindowWidth() / 2 - PlayerID.Width() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PlayerScore",
+                "=",
+                "SceneWindowWidth() / 2 - PlayerScore.Width() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "IncreaseScoreButton",
+                "=",
+                "PlayerScore.X() + PlayerScore.Width() + 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "DecreaseScoreButton",
+                "=",
+                "PlayerScore.X() - DecreaseScoreButton.Width() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PlayerScoreState",
+                "=",
+                "SceneWindowWidth() / 2 - PlayerScoreState.Width() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "SignInWithoutAuthDialogButton",
+                "=",
+                "SceneWindowWidth() / 2 - SignInWithoutAuthDialogButton.Width() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "SignInWithinAuthDialogButton",
+                "=",
+                "SceneWindowWidth() / 2 - SignInWithinAuthDialogButton.Width() / 2"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "@achubutkin",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "Yandex.Games SDK",
+      "helpPath": "https://github.com/achubutkin/yandex-games-sdk-gdevelop-extension",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWdhbWVwYWQtdmFyaWFudCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik03LDZIMTdBNiw2IDAgMCwxIDIzLDEyQTYsNiAwIDAsMSAxNywxOEMxNS4yMiwxOCAxMy42MywxNy4yMyAxMi41MywxNkgxMS40N0MxMC4zNywxNy4yMyA4Ljc4LDE4IDcsMThBNiw2IDAgMCwxIDEsMTJBNiw2IDAgMCwxIDcsNk02LDlWMTFINFYxM0g2VjE1SDhWMTNIMTBWMTFIOFY5SDZNMTUuNSwxMkExLjUsMS41IDAgMCwwIDE0LDEzLjVBMS41LDEuNSAwIDAsMCAxNS41LDE1QTEuNSwxLjUgMCAwLDAgMTcsMTMuNUExLjUsMS41IDAgMCwwIDE1LjUsMTJNMTguNSw5QTEuNSwxLjUgMCAwLDAgMTcsMTAuNUExLjUsMS41IDAgMCwwIDE4LjUsMTJBMS41LDEuNSAwIDAsMCAyMCwxMC41QTEuNSwxLjUgMCAwLDAgMTguNSw5WiIgLz48L3N2Zz4=",
+      "name": "YandexGamesSDK",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/gamepad-variant.svg",
+      "shortDescription": "An extension for Yandex.Games SDK that lets you easily integrate games created by GDevelop into the Yandex.Games platform.",
+      "version": "2.0.5",
+      "description": [
+        "An extension for Yandex.Games SDK that lets you easily integrate games created by GDevelop into the Yandex.Games platform. The extension provides the following features:",
+        "",
+        "* Set up automatic switching to full screen mode",
+        "* Set up screen orientation during the game and add a rotate device prompt",
+        "* In-game purchases",
+        "* Player details (user login, in-game data, user profile data)",
+        "* Game rating",
+        "* Manage ads (interstitial ad, rewarded videos)",
+        "* Competition tables ",
+        ""
+      ],
+      "tags": [
+        "yandex",
+        "sdk",
+        "ads"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Initialize the Yandex.Games SDK before getting started. Call this action only once in the game when it starts.\n\nAll other actions and conditions check that this SDK is initialized. You don't have to check it yourself every time.",
+          "fullName": "Initialize Yandex.Games SDK",
+          "functionType": "Action",
+          "name": "Init",
+          "sentence": "Initialize the Yandex.Games SDK (fullscreen: _PARAM1_, orientation: _PARAM2_, lock orientation: _PARAM3_)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "var prefix = \"__YandexGamesSDK_\";",
+                "var globalVarsRef = runtimeScene.getGame().getVariables();",
+                "",
+                "function getPrefixingString(str) {",
+                "    return prefix + str;",
+                "}",
+                "",
+                "var isInitVar = globalVarsRef.get(getPrefixingString(\"IsInit\"));",
+                "",
+                "isInitVar.setBoolean(false);",
+                "globalVarsRef.add(isInitVar);",
+                "",
+                "// Load and init Yandex.Games SDK",
+                "var options = {",
+                "    fullscreen: eventsFunctionContext.getArgument(\"fullscreen\"),",
+                "    orientation: {",
+                "        value: eventsFunctionContext.getArgument(\"orientation\") || \"portrait\",",
+                "        lock: eventsFunctionContext.getArgument(\"lock\")",
+                "    }",
+                "};",
+                "",
+                "(function (d, s, id) {",
+                "    var js,",
+                "        fjs = d.getElementsByTagName(s)[0];",
+                "    if (d.getElementById(id)) {",
+                "        isInitVar.setBoolean(true);",
+                "        globalVarsRef.add(isInitVar);",
+                "        return;",
+                "    };",
+                "    js = d.createElement(s);",
+                "    js.id = id;",
+                "    js.src = \"https://yandex.ru/games/sdk/v2\";",
+                "    js.onload = function () {",
+                "        YaGames",
+                "            .init(options)",
+                "            .then(function (instance) {",
+                "                // Set as global object",
+                "                gdjs._YandexGamesSDK.setInstance(instance);",
+                "",
+                "                isInitVar.setBoolean(true);",
+                "                globalVarsRef.add(isInitVar);",
+                "            });",
+                "    };",
+                "    js.onerror = function (ev) {",
+                "        console.warn(ev);",
+                "    };",
+                "    fjs.parentNode.insertBefore(js, fjs);",
+                "})(document, \"script\", \"yagames-jssdk\");",
+                "",
+                "// Extension`s methods",
+                "function setFunctionContextCallback(isSuccess, _eventsFunctionContext) {",
+                "    var state = isSuccess ? \"ok\" : \"error\";",
+                "    var callbackVarName = _eventsFunctionContext.getArgument(\"CallbackVariableName\");",
+                "    if (callbackVarName) {",
+                "        var callbackVar = globalVarsRef.get(callbackVarName);",
+                "        callbackVar.setString(state);",
+                "        globalVarsRef.add(callbackVarName, callbackVar);",
+                "    }",
+                "}",
+                "",
+                "function setCallback(isSuccess, callbackVarName) {",
+                "    var state = isSuccess ? \"ok\" : \"error\";",
+                "    var prefixingCallbackVarName = getPrefixingString(callbackVarName)",
+                "    var callbackVar = globalVarsRef.get(prefixingCallbackVarName);",
+                "    callbackVar.setString(state);",
+                "    globalVarsRef.add(prefixingCallbackVarName, callbackVar);",
+                "}",
+                "",
+                "function setFunctionContextJsonCallback(json, _eventsFunctionContext) {",
+                "    var resultVarName = _eventsFunctionContext.getArgument(\"ResultVariableName\");",
+                "    if (resultVarName) {",
+                "        var resultVar = globalVarsRef.get(resultVarName);",
+                "        gdjs.evtTools.network.jsonToVariableStructure(json, resultVar);",
+                "        globalVarsRef.add(resultVarName, resultVar);",
+                "    }",
+                "}",
+                "",
+                "gdjs._YandexGamesSDK = {",
+                "    getInstance: function () {",
+                "        return window[getPrefixingString(\"instance\")];",
+                "    },",
+                "    setInstance: function (instance) {",
+                "        window[getPrefixingString(\"instance\")] = instance;",
+                "    },",
+                "    getPlayerInstance: function () {",
+                "        return window[getPrefixingString(\"player\")];",
+                "    },",
+                "    setPlayerInstance: function (player) {",
+                "        window[getPrefixingString(\"player\")] = player;",
+                "    },",
+                "    getPaymentsInstance: function () {",
+                "        return window[getPrefixingString(\"payments\")];",
+                "    },",
+                "    setPaymentsInstance: function (payments) {",
+                "        window[getPrefixingString(\"payments\")] = payments;",
+                "    },",
+                "    getGlobalVariable: function (name) {",
+                "        return globalVarsRef.get(name);",
+                "    },",
+                "    setGlobalVariable: function (name, value) {",
+                "        var globalVar = globalVarsRef.get(name);",
+                "        switch (typeof value) {",
+                "            case \"object\":",
+                "                gdjs.evtTools.network.jsonToVariableStructure(JSON.stringify(value), globalVar);",
+                "                break;",
+                "            case \"string\":",
+                "                globalVar.setString(value);",
+                "                break;",
+                "            case \"number\":",
+                "                globalVar.setNumber(value);",
+                "                break;",
+                "            default:",
+                "                globalVar.setValue(value);",
+                "                break;",
+                "        };",
+                "        globalVarsRef.add(globalVar);",
+                "    },",
+                "    setFunctionContextCallback: setFunctionContextCallback,",
+                "    setCallback: setCallback,",
+                "    setFunctionContextJsonCallback: setFunctionContextJsonCallback,",
+                "    getPrefixingString: getPrefixingString,",
+                "    getExtensionPrefix: function () {",
+                "        return prefix;",
+                "    }",
+                "}",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Fullscreen (switch to full-screen mode when opening a game or on the first user action)",
+              "name": "fullscreen",
+              "type": "yesorno"
+            },
+            {
+              "description": "Screen orientation",
+              "longDescription": "If not set portrait default",
+              "name": "orientation",
+              "supplementaryInformation": "[\"portrait\",\"landscape\"]",
+              "type": "stringWithSelector"
+            },
+            {
+              "description": "Lock the orientation of the screen?",
+              "name": "lock",
+              "type": "yesorno"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "The Yandex Games SDK initialized. All other actions and conditions check that this SDK is initialized. You don't have to check it yourself every time.",
+          "fullName": "Yandex Games SDK initialized",
+          "functionType": "Condition",
+          "name": "Initialized",
+          "sentence": "The Yandex Games SDK initialized",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_IsInit",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Interstitial ads are ad blocks that completely cover the app background and show up before a user gets the data requested.",
+          "fullName": "Show the interstitial ad",
+          "functionType": "Action",
+          "name": "ShowInterstitialAd",
+          "sentence": "Show the interstitial ad",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::Initialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var resultVarName = gdjs._YandexGamesSDK.getPrefixingString(\"InterstitialAdResult\");\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getInstance().adv.showFullscreenAdv({\r",
+                    "        callbacks: {\r",
+                    "            onOpen: function () {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"open\");\r",
+                    "            },\r",
+                    "            onClose: function (wasShown) {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, wasShown ? \"was_shown_closed\" : \"just_closed\");\r",
+                    "            },\r",
+                    "            onError: function (err) {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"error\");\r",
+                    "                console.warn(\"Error trying to show a fullscreen ad\", err);\r",
+                    "            },\r",
+                    "            onOffline: function () {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"offline\");\r",
+                    "            }\r",
+                    "        }\r",
+                    "    });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"error\");\r",
+                    "    console.warn(\"Error trying to show a fullscreen ad\", err);\r",
+                    "};\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful opening of the ad.",
+          "fullName": "Interstitial ad opened",
+          "functionType": "Condition",
+          "name": "InterstitialAdOpened",
+          "sentence": "Interstitial ad opened",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_InterstitialAdResult",
+                    "=",
+                    "\"open\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful opening and showing of the ad.",
+          "fullName": "Interstitial ad was shown",
+          "functionType": "Condition",
+          "name": "InterstitialAdWasShown",
+          "sentence": "Interstitial ad was shown",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_InterstitialAdResult",
+                    "=",
+                    "\"was_shown_closed\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the closed of the ad.",
+          "fullName": "Interstitial ad closed",
+          "functionType": "Condition",
+          "name": "InterstitialAdClosed",
+          "sentence": "Interstitial ad closed (was shown _PARAM1_)?",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "GetArgumentAsBoolean"
+                          },
+                          "parameters": [
+                            "\"IsWasShown\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "__YandexGamesSDK_InterstitialAdResult",
+                            "=",
+                            "\"was_shown_closed\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "GetArgumentAsBoolean"
+                          },
+                          "parameters": [
+                            "\"IsWasShown\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "__YandexGamesSDK_InterstitialAdResult",
+                                "=",
+                                "\"just_closed\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "__YandexGamesSDK_InterstitialAdResult",
+                                "=",
+                                "\"was_shown_closed\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Is was shown?",
+              "name": "IsWasShown",
+              "type": "yesorno"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Interstitial ad failed",
+          "functionType": "Condition",
+          "name": "InterstitialAdFailed",
+          "sentence": "Interstitial ad failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_InterstitialAdResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Rewarded videos are video ad blocks used to monetize games and earn a reward or in-game currency.",
+          "fullName": "Show the rewarded video (outdated)",
+          "functionType": "Action",
+          "name": "ShowRewardedVideo",
+          "sentence": "Show the rewarded video",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::Initialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var resultVarName = gdjs._YandexGamesSDK.getPrefixingString(\"RewardedVideoResult\");\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getInstance().adv.showRewardedVideo({\r",
+                    "        callbacks: {\r",
+                    "            onOpen: function () {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"open\");\r",
+                    "            },\r",
+                    "            onRewarded: function () {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"rewarded\");\r",
+                    "            },\r",
+                    "            onClose: function () {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"closed\");\r",
+                    "            },\r",
+                    "            onError: function (err) {\r",
+                    "                gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"error\");\r",
+                    "                console.warn(err);\r",
+                    "            }\r",
+                    "        }\r",
+                    "    });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setGlobalVariable(resultVarName, \"error\");\r",
+                    "    console.warn(\"Error while showing a rewarded video\", err);\r",
+                    "};\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful opening of the ad.",
+          "fullName": "Rewarded video opened",
+          "functionType": "Condition",
+          "name": "RewardedVideoOpened",
+          "sentence": "Rewarded video opened",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_RewardedVideoResult",
+                    "=",
+                    "\"open\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for a successful reward.",
+          "fullName": "Rewarded video rewarded",
+          "functionType": "Condition",
+          "name": "RewardedVideoRewarded",
+          "sentence": "Rewarded video rewarded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_RewardedVideoResult",
+                    "=",
+                    "\"rewarded\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the closed of the ad.",
+          "fullName": "Rewarded video closed",
+          "functionType": "Condition",
+          "name": "RewardedVideoClosed",
+          "sentence": "Rewarded video closed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_RewardedVideoResult",
+                    "=",
+                    "\"closed\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Rewarded video failed",
+          "functionType": "Condition",
+          "name": "RewardedVideoFailed",
+          "sentence": "Rewarded video failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_RewardedVideoResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "To work with the user's in-game data, use the action. \n\nWhen the Player object is initialized, the player sees a dialog window requesting access to their personal data. Access is requested for the avatar and username, the user ID is always passed automatically.\n\nIf you only need the ID and not the username or avatar, use the optional scopes: false parameter. In this case, the dialog window isn't shown.",
+          "fullName": "Init player",
+          "functionType": "Action",
+          "name": "InitPlayer",
+          "sentence": "Init player with scopes _PARAM1_ and signed _PARAM2_ and open auth dialog _PARAM3_ and photo size _PARAM4_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::Initialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var globalsVarsRef = runtimeScene.getGame().getVariables();\r",
+                    "var resultVarName = gdjs._YandexGamesSDK.getPrefixingString(\"Player\");\r",
+                    "var resultVar = globalsVarsRef.get(resultVarName);\r",
+                    "var instance = gdjs._YandexGamesSDK.getInstance();\r",
+                    "\r",
+                    "var photoSize = eventsFunctionContext.getArgument(\"PhotoSize\") || \"small\";\r",
+                    "\r",
+                    "function addChildVarToVar(name, value, gdjsVar) {\r",
+                    "    var childVar = new gdjs.Variable({\r",
+                    "        name: name, value: value\r",
+                    "    });\r",
+                    "\r",
+                    "    childVar.setString(value);\r",
+                    "    return gdjsVar.addChild(name, childVar);\r",
+                    "}\r",
+                    "\r",
+                    "var options = {\r",
+                    "    scopes: !!eventsFunctionContext.getArgument(\"Scopes\"),\r",
+                    "    signed: !!eventsFunctionContext.getArgument(\"Signed\")\r",
+                    "};\r",
+                    "\r",
+                    "function initPlayer() {\r",
+                    "    return instance.getPlayer(options)\r",
+                    "        .then(function (player) {\r",
+                    "            if (!!eventsFunctionContext.getArgument(\"OpenAuthDialog\") && player.getMode() === \"lite\") {\r",
+                    "                return instance.auth.openAuthDialog()\r",
+                    "                    .then(function () {\r",
+                    "                        initPlayer();\r",
+                    "                    }).catch(function () {\r",
+                    "                        console.warn(\"Player not logged in.\");\r",
+                    "                    });\r",
+                    "            }\r",
+                    "\r",
+                    "            // Player logged in.\r",
+                    "            addChildVarToVar(\"id\", player.getUniqueID(), resultVar);\r",
+                    "\r",
+                    "            if (!!eventsFunctionContext.getArgument(\"Scopes\")) {\r",
+                    "                var name = player.getName(), photo = player.getPhoto(photoSize);\r",
+                    "                if (name) addChildVarToVar(\"name\", name, resultVar);\r",
+                    "                if (photo) addChildVarToVar(\"photo\", photo, resultVar);\r",
+                    "            }\r",
+                    "\r",
+                    "            if (!!eventsFunctionContext.getArgument(\"Signed\")) {\r",
+                    "                addChildVarToVar(\"signature\", player.signature, resultVar);\r",
+                    "            }\r",
+                    "\r",
+                    "            globalsVarsRef.add(resultVarName, resultVar);\r",
+                    "            gdjs._YandexGamesSDK.setPlayerInstance(player);\r",
+                    "        });\r",
+                    "}\r",
+                    "\r",
+                    "gdjs._YandexGamesSDK.setPlayerInstance(undefined);\r",
+                    "\r",
+                    "initPlayer();\r",
+                    "\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Scopes",
+              "name": "Scopes",
+              "type": "trueorfalse"
+            },
+            {
+              "description": "Signed",
+              "name": "Signed",
+              "type": "trueorfalse"
+            },
+            {
+              "description": "Open auth dialog if user not logged in?",
+              "name": "OpenAuthDialog",
+              "type": "trueorfalse"
+            },
+            {
+              "description": "Photo size of user`s avatar",
+              "name": "PhotoSize",
+              "supplementaryInformation": "[\"small\",\"medium\",\"large\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "The player is initialized. All other actions and conditions check that the player is initialized. You don't have to check it yourself every time.",
+          "fullName": "Player initialized",
+          "functionType": "Condition",
+          "name": "PlayerInitialized",
+          "sentence": "Player initialized",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::Initialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "if (gdjs._YandexGamesSDK.getPlayerInstance() !== undefined) {",
+                    "    eventsFunctionContext.returnValue = true;",
+                    "}",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Init player failed",
+          "functionType": "Action",
+          "name": "InitPlayerFailed",
+          "sentence": "Checking for an error occurrs.",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::Initialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "console.log('NOT IMPLEMENTED!');",
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load the in-game user data stored in the Yandex database.",
+          "fullName": "Load the player data",
+          "functionType": "Action",
+          "name": "LoadPlayerData",
+          "sentence": "Load the player data to _PARAM2_ variable from _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var globalVarsRef = runtimeScene.getGame().getVariables();",
+                    "var callbackVarName = \"LoadPlayerDataResult\";",
+                    "var keysVariableName = eventsFunctionContext.getArgument(\"KeysOrThatVariableName\");",
+                    "var keys = [];",
+                    "",
+                    "try {",
+                    "    if (keysVariableName && globalVarsRef.has(keysVariableName)) {",
+                    "        keys = globalVarsRef.get(keysVariableName)",
+                    "            .getAllChildrenArray().map(function (item) {",
+                    "                return item.getValue();",
+                    "            });",
+                    "    } else {",
+                    "        keys = keysVariableName.toString().split(',');",
+                    "    }",
+                    "} catch (err) {",
+                    "    console.warn(err);",
+                    "}",
+                    "",
+                    "gdjs._YandexGamesSDK.setCallback(false, callbackVarName);",
+                    "",
+                    "try {",
+                    "    gdjs._YandexGamesSDK.getPlayerInstance()",
+                    "        .getData(keys)",
+                    "        .then(function (data) {",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(data), eventsFunctionContext);",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);",
+                    "        })",
+                    "        .catch(function (err) {",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);",
+                    "            console.warn(err);",
+                    "        });",
+                    "} catch (err) {",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);",
+                    "    console.warn(err);",
+                    "}",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Keys or global variable name",
+              "longDescription": "Keys with comma delimiter e.g. \"key1, key2, key3\" or global variable name that contains array value with keys",
+              "name": "KeysOrThatVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store loaded data",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful loading of the player data.",
+          "fullName": "Load the player data succeeded",
+          "functionType": "Condition",
+          "name": "LoadPlayerDataSucceeded",
+          "sentence": "Load the player data succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerDataResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load the player data failed",
+          "functionType": "Condition",
+          "name": "LoadPlayerDataFailed",
+          "sentence": "Load the player data failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerDataResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Save the in-game user data stored in the Yandex database.",
+          "fullName": "Save the player data",
+          "functionType": "Action",
+          "name": "SavePlayerData",
+          "sentence": "Save the player data to _PARAM1_ from _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var sceneVarsRef = runtimeScene.getVariables();\r",
+                    "var callbackVarName = \"SavePlayerDataResult\";\r",
+                    "var keyVarName = eventsFunctionContext.getArgument(\"KeyVariableName\")\r",
+                    "var contentVarName = eventsFunctionContext.getArgument(\"ContentVariableName\");\r",
+                    "var contentVar = sceneVarsRef.get(contentVarName);\r",
+                    "\r",
+                    "gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "\r",
+                    "try {\r",
+                    "    var data = null;\r",
+                    "\r",
+                    "    if (contentVar.isStructure()) {\r",
+                    "        data = {\r",
+                    "            [keyVarName]: JSON.parse(gdjs.evtTools.network.variableStructureToJSON(contentVar))\r",
+                    "        };\r",
+                    "    } else if (contentVar.isPrimitive()) {\r",
+                    "        data = {\r",
+                    "            [keyVarName]: contentVar.getValue()\r",
+                    "        };\r",
+                    "    }\r",
+                    "\r",
+                    "    gdjs._YandexGamesSDK.getPlayerInstance().setData(data)\r",
+                    "        .then(function () {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    console.warn(err);\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "}\r",
+                    "\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Data key name (e.g. \"Lives\")",
+              "name": "KeyVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Scene variable (number, string or structure) with the content to save",
+              "name": "ContentVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful saving of the player data.",
+          "fullName": "Save the player data succeeded",
+          "functionType": "Condition",
+          "name": "SavePlayerDataSucceeded",
+          "sentence": "Save the player data succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_SavePlayerDataResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Save the player data failed",
+          "functionType": "Condition",
+          "name": "SavePlayerDataFailed",
+          "sentence": "Save the player data failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_SavePlayerDataResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load the in-game player numeric data stored in the Yandex database.",
+          "fullName": "Load the player stats",
+          "functionType": "Action",
+          "name": "LoadPlayerStats",
+          "sentence": "Load the player stats to _PARAM2_ number variable from _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var sceneVarsRef = runtimeScene.getVariables();",
+                    "var callbackVarName = \"LoadPlayerStatsResult\";",
+                    "var keysVarName = eventsFunctionContext.getArgument(\"KeysOrThatVariableName\");",
+                    "var keys = [];",
+                    "",
+                    "try {",
+                    "    if (keysVarName && sceneVarsRef.has(keysVarName)) {",
+                    "        keys = sceneVarsRef.get(keysVarName)",
+                    "            .getAllChildrenArray().map(function (item) {",
+                    "                return item.getValue();",
+                    "            });",
+                    "    } else {",
+                    "        keys = keysVarName.toString().split(',');",
+                    "    }",
+                    "} catch (err) {",
+                    "    console.warn(err);",
+                    "}",
+                    "",
+                    "gdjs._YandexGamesSDK.setCallback(false, callbackVarName);",
+                    "",
+                    "try {",
+                    "    gdjs._YandexGamesSDK.getPlayerInstance()",
+                    "        .getStats(keys)",
+                    "        .then(function (data) {",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(data), eventsFunctionContext);",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);",
+                    "        })",
+                    "        .catch(function (err) {",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);",
+                    "            console.warn(err);",
+                    "        });",
+                    "} catch (err) {",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);",
+                    "    console.warn(err);",
+                    "}",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Keys or global variable name",
+              "longDescription": "Keys with comma delimiter e.g. \"key1, key2, key3\" or global variable name that contains array value with keys",
+              "name": "KeysOrThatVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global number variable where to store loaded stats where each value is a number",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful loading of the player data.",
+          "fullName": "Load the player stats succeeded",
+          "functionType": "Condition",
+          "name": "LoadPlayerStatsSucceeded",
+          "sentence": "Load the player stats succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerStatsResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load the player stats failed",
+          "functionType": "Condition",
+          "name": "LoadPlayerStatsFailed",
+          "sentence": "Load the player stats failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerStatsResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Save the in-game player numeric data stored in the Yandex database.",
+          "fullName": "Save the player stats",
+          "functionType": "Action",
+          "name": "SavePlayerStats",
+          "sentence": "Save the player stats to _PARAM1_ number variable from variable  _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var callbackVarName = \"SavePlayerStatsResult\";\r",
+                    "var contentVarName = eventsFunctionContext.getArgument(\"ContentVariableName\");\r",
+                    "var contentVar = gdjs._YandexGamesSDK.getGlobalVariable(contentVarName);\r",
+                    "\r",
+                    "gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "\r",
+                    "if (contentVar && contentVar.isStructure()) {\r",
+                    "    try {\r",
+                    "        var data = gdjs.evtTools.network.variableStructureToJSON(contentVar);\r",
+                    "        gdjs._YandexGamesSDK.getPlayerInstance()\r",
+                    "            .setStats(JSON.parse(data))\r",
+                    "            .then(function () {\r",
+                    "                gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "            })\r",
+                    "            .catch(function (err) {\r",
+                    "                gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "                console.warn(err);\r",
+                    "            })\r",
+                    "    } catch (err) {\r",
+                    "        gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "        console.warn(err);\r",
+                    "    }\r",
+                    "}\r",
+                    "\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Stats key name (e.g.  \"Lives\" user's numeric data)",
+              "name": "KeyVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Scene structure variable with the content to save where each value is a number",
+              "name": "ContentVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful saving of the player data.",
+          "fullName": "Save the player stats succeeded",
+          "functionType": "Condition",
+          "name": "SavePlayerStatsSucceeded",
+          "sentence": "Save the player stats succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_SavePlayerStatsResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Save the player stats failed",
+          "functionType": "Condition",
+          "name": "SavePlayerStatsFailed",
+          "sentence": "Save the player stats failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_SavePlayerStatsResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Changes in-game numeric user data. For numeric values that change frequently.",
+          "fullName": "Increment the player stats",
+          "functionType": "Action",
+          "name": "IncrementPlayerStats",
+          "sentence": "Increment the player stats",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var callbackVarName = \"IncrementPlayerStatsResult\";\r",
+                    "var contentVarName = eventsFunctionContext.getArgument(\"ContentVariableName\");\r",
+                    "var contentVar = gdjs._YandexGamesSDK.getGlobalVariable(contentVarName);\r",
+                    "\r",
+                    "gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "\r",
+                    "if (contentVar && contentVar.isStructure()) {\r",
+                    "    try {\r",
+                    "        var data = gdjs.evtTools.network.variableStructureToJSON(contentVar);\r",
+                    "        gdjs._YandexGamesSDK.getPlayerInstance()\r",
+                    "            .incrementStats(JSON.parse(data))\r",
+                    "            .then(function () {\r",
+                    "                gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "            })\r",
+                    "            .catch(function (err) {\r",
+                    "                gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "                console.warn(err);\r",
+                    "            })\r",
+                    "    } catch (err) {\r",
+                    "        gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "        console.warn(err);\r",
+                    "    }\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Stats key name (e.g.  \"Lives\" user's numeric data)",
+              "name": "KeyVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Scene structure variable with the content to save where each value is a number",
+              "name": "ContentVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful saving of the player data.",
+          "fullName": "Increment the player stats succeeded",
+          "functionType": "Condition",
+          "name": "IncrementPlayerStatsSucceeded",
+          "sentence": "Increment the player stats succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_IncrementPlayerStatsResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Increment the player stats failed",
+          "functionType": "Condition",
+          "name": "IncrementPlayerStatsFailed",
+          "sentence": "Increment the player stats failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_IncrementPlayerStatsResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "To allow users to make in-game purchases. Only users logged in to Yandex can make in-game purchases, otherwise the purchase data isn't saved.\n\nUser must be initialized before calling this action with action InitPlayer.",
+          "fullName": "Init payments",
+          "functionType": "Action",
+          "name": "InitPayments",
+          "sentence": "Init payments",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var callbackVarName = \"InitPaymentsResult\";\r",
+                    "\r",
+                    "gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getPayments({ signed: true })\r",
+                    "        .then(function (payments) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "            gdjs._YandexGamesSDK.setPaymentsInstance(payments);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Payments have been initialized. All other actions and conditions check that payments have been initialized. You don't have to check it yourself every time.",
+          "fullName": "Payments initialized",
+          "functionType": "Condition",
+          "name": "PaymentsInitialized",
+          "sentence": "Payments initialized",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "if (gdjs._YandexGamesSDK.getPaymentsInstance() !== undefined) {\r",
+                "    eventsFunctionContext.returnValue = true;\r",
+                "}\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Init payments failed",
+          "fullName": "Init payments failed",
+          "functionType": "Condition",
+          "name": "InitPaymentsFailed",
+          "sentence": "Init payments failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "console.log('NOT IMPLEMENTED!');\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load all player`s purchases and their cost.",
+          "fullName": "Load all player purchases",
+          "functionType": "Action",
+          "name": "LoadAllPlayerPurchases",
+          "sentence": "Load all player purchases to _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PaymentsInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var callbackVarName = \"LoadAllPlayerPurchasesResult\";\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getPaymentsInstance().getPurchases()\r",
+                    "        .then(function (purchases) {\r",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(purchase), eventsFunctionContext);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Global structure variable where to store loaded purchases",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful loaded all player`s purchases.",
+          "fullName": "Load all player`s purchases succeeded",
+          "functionType": "Condition",
+          "name": "LoadAllPlayerPurchasesSucceeded",
+          "sentence": "Load all player`s purchases succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadAllPlayerPurchasesResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load all player`s purchases failed",
+          "functionType": "Condition",
+          "name": "LoadAllPlayerPurchasesFailed",
+          "sentence": "Load all player`s purchases failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadAllPlayerPurchasesResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load a user's purchase by ID or process consumable purchases.\n\nThere are two types of purchases: permanent (such as for disabling ads) and consumable (such as in-game currency).\n\nTo process permanent purchases, just use the action.\nTo process consumable purchases, use the action and the Process the consumable purchases option.",
+          "fullName": "Load the purchase by ID",
+          "functionType": "Action",
+          "name": "LoadPlayerPurchaseByID",
+          "sentence": "Load the purchase by ID _PARAM1_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PaymentsInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var purchaseID = eventsFunctionContext.getArgument(\"PurchaseID\");\r",
+                    "var callbackVarName = \"LoadPlayerPurchaseByIDResult\";\r",
+                    "var processTheConsumablePurchases = !!eventsFunctionContext.getArgument(\"ProcessTheConsumablePurchases\");\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getPaymentsInstance()\r",
+                    "        .getPurchases()\r",
+                    "        .then(function (purchases) {\r",
+                    "            if (purchases.some(function (purchase) { return purchase.productID === purchaseID })) {\r",
+                    "                var finded = purchases.filter(function (purchase) {\r",
+                    "                    return purchase.productID === eventsFunctionContext.getArgument(\"ID\")\r",
+                    "                });\r",
+                    "\r",
+                    "                if (processTheConsumablePurchases) {\r",
+                    "                    gdjs._YandexGamesSDK.getPaymentsInstance()\r",
+                    "                        .consumePurchase(purchase.purchaseToken);\r",
+                    "                }\r",
+                    "\r",
+                    "                gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(finded[0]), eventsFunctionContext);\r",
+                    "            }\r",
+                    "\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The purchase (product) ID (e.g. \"disable_ads\")",
+              "name": "PurchaseID",
+              "type": "string"
+            },
+            {
+              "description": "Global structure variable where to store loaded purchases",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Process the consumable purchases",
+              "longDescription": "There are two types of purchases: permanent (such as for disabling ads) and consumable (such as in-game currency).\n\nTo process permanent purchases, set this option to No.\nTo process consumable purchases, set this option to Yes (Attention! After run this action, the processed purchase is permanently deleted. Therefore, first edit the player data using the Save Player Data or Save Player Stats action and then process the purchase.",
+              "name": "ProcessTheConsumablePurchases",
+              "type": "yesorno"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful loaded player`s purchase by ID.",
+          "fullName": "Load player`s purchase by ID succeeded",
+          "functionType": "Condition",
+          "name": "LoadPlayerPurchaseByIDSucceeded",
+          "sentence": "Load player`s purchase by ID succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerPurchaseByIDResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load player`s purchase by ID failed",
+          "functionType": "Condition",
+          "name": "LoadPlayerPurchaseByIDFailed",
+          "sentence": "Load player`s purchase by ID failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerPurchaseByIDResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Activate an in-game purchase. The action opens a frame with a payment gateway.\n\nAfter the player successfully makes a purchase, check it with the PurchaseSucceeded condition. If the player didn't make a purchase and closed the window, check it with the PurchaseFailed condition.",
+          "fullName": "Purchase",
+          "functionType": "Action",
+          "name": "Purchase",
+          "sentence": "Purchase",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PaymentsInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var purchaseID = eventsFunctionContext.getArgument(\"PurchaseID\");\r",
+                    "var callbackVarName = \"PurchaseResult\";\r",
+                    "var callbackVarNameWithID = callbackVarName + purchaseID;\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getPaymentsInstance().purchase({ id: purchaseID })\r",
+                    "        .then(function (purchase) {\r",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(purchase), eventsFunctionContext);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarNameWithID);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarNameWithID);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarNameWithID);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The purchase (product) ID (e.g. \"disable_ads\")",
+              "name": "PurchaseID",
+              "type": "string"
+            },
+            {
+              "description": "Global structure variable where to store the loaded purchase data",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the player successfully makes a purchase.",
+          "fullName": "Purchase succeeded",
+          "functionType": "Condition",
+          "name": "PurchaseSucceeded",
+          "sentence": "Purchase succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PaymentsInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"PurchaseID\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "__YandexGamesSDK_PurchaseResult + GetArgumentAsString(PurchaseID)",
+                                "=",
+                                "\"ok\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"PurchaseID\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "__YandexGamesSDK_PurchaseResult",
+                                "=",
+                                "\"ok\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The purchase (product) ID (optional, e.g. \"disable_ads\", when not set then last purchase will be check)",
+              "name": "PurchaseID",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.\n\nAn unstable internet connection may cause a situation where the player makes a purchase, but it's not registered in the game. To avoid this, process purchases using the ConsumePurchase action.",
+          "fullName": "Purchase failed",
+          "functionType": "Condition",
+          "name": "PurchaseFailed",
+          "sentence": "Purchase failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PaymentsInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"PurchaseID\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "__YandexGamesSDK_PurchaseResult + GetArgumentAsString(PurchaseID)",
+                                "=",
+                                "\"error\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"PurchaseID\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "__YandexGamesSDK_PurchaseResult",
+                                "=",
+                                "\"error\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The purchase (product) ID (optional, e.g. \"disable_ads\", when not set then last purchase will be check)",
+              "name": "PurchaseID",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Load all available purchases to the user and their cost. It's generated based on the table in the Purchases tab of the developer dashboard.",
+          "fullName": "Load all available purchases and their cost",
+          "functionType": "Action",
+          "name": "LoadAllAvailablePurchases",
+          "sentence": "Load all available purchases and their cost to _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PaymentsInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var purchaseID = eventsFunctionContext.getArgument(\"PurchaseID\");\r",
+                    "var callbackVarName = \"LoadAllAvailablePurchasesResult\";\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getPaymentsInstance().getCatalog()\r",
+                    "        .then(function (purchases) {\r",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(purchase), eventsFunctionContext);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Global array variable where to store loaded available purchases",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successful loaded all purchases.",
+          "fullName": "Load all available purchase succeeded",
+          "functionType": "Condition",
+          "name": "LoadAllAvailablePurchasesSucceeded",
+          "sentence": "Load all available purchase succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadAllAvailablePurchasesResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load all available purchase failed",
+          "functionType": "Condition",
+          "name": "LoadAllAvailablePurchasesFailed",
+          "sentence": "Load all available purchase failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadAllAvailablePurchasesResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load a personalized competition tables (leaderboards) by name.",
+          "fullName": "Load the Leaderboard",
+          "functionType": "Action",
+          "name": "LoadLeaderboard",
+          "sentence": "Load the Leaderboard by name _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var boardName = eventsFunctionContext.getArgument(\"Name\");\r",
+                    "var callbackVarName = \"LoadLeaderboardResult\";\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r",
+                    "        .then(function (lb) {\r",
+                    "            return lb.getLeaderboardDescription(boardName);\r",
+                    "        })\r",
+                    "        .then(function (res) {\r",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Competition table name (e.g. \"leaderboard2021\")",
+              "name": "Name",
+              "type": "string"
+            },
+            {
+              "description": "Global structure variable where to store loaded leaderboard",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successfull loaded a personalized competition tables (leaderboards) by name.",
+          "fullName": "Load leaderboard succeeded",
+          "functionType": "Condition",
+          "name": "LoadLeaderboardSucceeded",
+          "sentence": "Load leaderboard succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadLeaderboardResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load leaderboard failed",
+          "functionType": "Condition",
+          "name": "LoadLeaderboardFailed",
+          "sentence": "Load leaderboard failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadLeaderboardResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Save a new score for a player.",
+          "fullName": "Save the leaderboard score",
+          "functionType": "Action",
+          "name": "SaveLeaderboardScore",
+          "sentence": "Save the leaderboard _PARAM1_ score _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var boardName = eventsFunctionContext.getArgument(\"Name\");\r",
+                    "var score = parseInt(eventsFunctionContext.getArgument(\"Score\"));\r",
+                    "var callbackVarName = \"SaveLeaderboardScoreResult\";\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r",
+                    "        .then(function (lb) {\r",
+                    "            lb.setLeaderboardScore(boardName, score);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Competition table name (e.g. \"leaderboard2021\")",
+              "name": "Name",
+              "type": "string"
+            },
+            {
+              "description": "Score. Must be greater than 0. If the table type is time, the values must be passed in milliseconds.",
+              "name": "Score",
+              "type": "expression"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successfull save a new score for a player.",
+          "fullName": "Save leaderboard succeeded",
+          "functionType": "Condition",
+          "name": "SaveLeaderboardSucceeded",
+          "sentence": "Save leaderboard succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_SaveLeaderboardScoreResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Save leaderboard failed",
+          "functionType": "Condition",
+          "name": "SaveLeaderboardFailed",
+          "sentence": "Save leaderboard failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_SaveLeaderboardScoreResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load a user's ranking.",
+          "fullName": "Load the Player ranking",
+          "functionType": "Action",
+          "name": "LoadPlayerRanking",
+          "sentence": "Load the Player ranking of _PARAM1_ to _PARAM2_ global variable",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var boardName = eventsFunctionContext.getArgument(\"Name\");\r",
+                    "var callbackVarName = \"LoadPlayerRankingResult\";\r",
+                    "\r",
+                    "gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r",
+                    "        .then(function (lb) {\r",
+                    "            return lb.getLeaderboardPlayerEntry(boardName);\r",
+                    "        })\r",
+                    "        .then(function (res) {\r",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "\r",
+                    "            if (err.code === 'LEADERBOARD_PLAYER_NOT_PRESENT') {\r",
+                    "                // Triggers if the leaderboard doesn't contain an entry for the player\r",
+                    "            }\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Competition table name (e.g. \"leaderboard2021\")",
+              "name": "Name",
+              "type": "string"
+            },
+            {
+              "description": "Global structure variable where to store loaded player ranking",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successfull load a user's ranking.",
+          "fullName": "Load the Player ranking succeeded",
+          "functionType": "Condition",
+          "name": "LoadPlayerRankingSucceeded",
+          "sentence": "Load the Player ranking succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerRankingResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load the Player ranking failed",
+          "functionType": "Condition",
+          "name": "LoadPlayerRankingFailed",
+          "sentence": "Load the Player ranking failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadPlayerRankingResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load user rankings.",
+          "fullName": "Load the Leaderboard entries",
+          "functionType": "Action",
+          "name": "LoadLeaderboardEntries",
+          "sentence": "Load the Leaderboard by name _PARAM1_ entries",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "YandexGamesSDK::PlayerInitialized"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var boardName = eventsFunctionContext.getArgument(\"Name\");\r",
+                    "var quantityTop = parseInt(eventsFunctionContext.getArgument(\"QuantityTop\"));\r",
+                    "var isIncludeUser = !!eventsFunctionContext.getArgument(\"IncludePlayer\");\r",
+                    "var quantityAround = parseInt(eventsFunctionContext.getArgument(\"QuantityAround\"));\r",
+                    "var callbackVarName = \"LoadLeaderboardEntriesResult\";\r",
+                    "\r",
+                    "try {\r",
+                    "    gdjs._YandexGamesSDK.getInstance().getLeaderboards()\r",
+                    "        .then(function (lb) {\r",
+                    "            const options = { includeUser: isIncludeUser };\r",
+                    "\r",
+                    "            if (quantityTop >= 1) {\r",
+                    "                options[\"quantityTop\"] = quantityTop;\r",
+                    "            }\r",
+                    "            if (quantityAround >= 1) {\r",
+                    "                options[\"quantityAround\"] = quantityAround;\r",
+                    "            }\r",
+                    "\r",
+                    "            return lb.getLeaderboardEntries(boardName, options);\r",
+                    "        })\r",
+                    "        .then(function (res) {\r",
+                    "            gdjs._YandexGamesSDK.setFunctionContextJsonCallback(JSON.stringify(res), eventsFunctionContext);\r",
+                    "            gdjs._YandexGamesSDK.setCallback(true, callbackVarName);\r",
+                    "        })\r",
+                    "        .catch(function (err) {\r",
+                    "            gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "            console.warn(err);\r",
+                    "        });\r",
+                    "} catch (err) {\r",
+                    "    gdjs._YandexGamesSDK.setCallback(false, callbackVarName);\r",
+                    "    console.warn(err);\r",
+                    "}\r",
+                    ""
+                  ],
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Competition table name (e.g. \"leaderboard2021\")",
+              "name": "Name",
+              "type": "string"
+            },
+            {
+              "description": "Global structure variable where to store loaded leaderboard entries",
+              "name": "ResultVariableName",
+              "type": "string"
+            },
+            {
+              "description": "Quantity top",
+              "longDescription": "Number of entries from the top of the table. The minimum value is 1, the maximum value is 20. The default is 5.",
+              "name": "QuantityTop",
+              "type": "expression"
+            },
+            {
+              "description": "Yes if whether to include the logged-in user?",
+              "name": "IncludePlayer",
+              "type": "yesorno"
+            },
+            {
+              "description": "Quantity around",
+              "longDescription": "Number of entries to return below and above the user. The minimum value is 1, the maximum value is 20. The default is 5.",
+              "name": "QuantityAround",
+              "type": "expression"
+            },
+            {
+              "description": "Global variable where to store the variable with state (ok or error)",
+              "name": "CallbackVariableName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for the successfull load user rankings.",
+          "fullName": "Load leaderboards entries succeeded",
+          "functionType": "Condition",
+          "name": "LoadLeaderboardsEntriesSucceeded",
+          "sentence": "Load leaderboards entries succeeded",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadLeaderboardEntriesResult",
+                    "=",
+                    "\"ok\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Checking for an error occurrs.",
+          "fullName": "Load leaderboards entries failed",
+          "functionType": "Condition",
+          "name": "LoadLeaderboardsEntriesFailed",
+          "sentence": "Load leaderboards entries failed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "__YandexGamesSDK_LoadLeaderboardEntriesResult",
+                    "=",
+                    "\"error\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Ask users to rate your game and write comments in a pop-up window (it appears when you ask for a rating, covering the app background). The pop-up window isn't shown if the user isn't logged in or already rated the game.",
+          "fullName": "Request the Game review",
+          "functionType": "Action",
+          "name": "RequestGameReview",
+          "sentence": "Request the Game review",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "gdjs._YandexGamesSDK.getInstance().feedback.canReview()\r",
+                "    .then(function (res) {\r",
+                "        if (res.value) {\r",
+                "            gdjs._YandexGamesSDK.getInstance().feedback.requestReview()\r",
+                "                .then(function (res) {\r",
+                "                    console.log(res.feedbackSent);\r",
+                "                });\r",
+                "        } else {\r",
+                "            console.log(res.reason);\r",
+                "        }\r",
+                "    });\r",
+                "    "
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
